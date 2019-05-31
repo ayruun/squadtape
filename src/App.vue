@@ -14,8 +14,15 @@
     </div>
 
     <div class="cover-section" v-if="playlist">
-      <div class="cover-container">
-        <div v-for="track in playlist.tracks.items" :key="track.track.id"><img :src="track.track.album.images[1].url" alt="cover brudi"></div>
+      <div class="cover-grid">
+        <div class="tile" v-for="track in playlist.tracks.items" :key="track.track.id">
+          <div class="track-info">
+            <p>Artist:</p>
+            <p>Track:</p>
+            <p>Duration:</p>
+          </div>
+          <img :src="track.track.album.images[1].url" alt="cover brudi">
+        </div>
       </div>
     </div>
   </div>
@@ -37,7 +44,7 @@ export default {
   methods: {
     fetchPlaylist() {
       let token =
-        "BQAI9X2UgLMIPmVJytt3Sm8l4IugExsUr7-vyqNd2pIMIb_7TqjVnONPkRLS3yeTezchXbHx0eBIv9FTU2bkrrzg9rtQwvXeH0YTwrasTSuP2WEHWRiJKVAAPe7WRAb5fiqGg3s21QMH-d02qkUwkhF9zkh9";
+        "BQBnPiPOy-IJjnHtCZi5NABncj0QXgjSHwgeYAaiHYaHy6naLt4YZ0XuQSSTK_o5eSPo-6V0FuLyFHtOJZTddEl4NWMgiqmhvb6nAf1cEYLUcixjPerkUHVnnAiktejFGUFqXIEzpo3dWaUI2NU9UlCfKzM";
       let id = "6id5t7Oao2KXLXYf1TG4MZ";
       fetch(`https://api.spotify.com/v1/playlists/${id}`, {
         headers: { Authorization: `Bearer ${token}` }
@@ -50,12 +57,15 @@ export default {
     totalLength() {
       if (!this.playlist) return null;
 
-      let durationSec = this.playlist.tracks.items.reduce(
-        (total, el) => total + el.track.duration_ms,
-        0
-      ) / 1000;
+      let durationSec =
+        this.playlist.tracks.items.reduce(
+          (total, el) => total + el.track.duration_ms,
+          0
+        ) / 1000;
 
-      return `${Math.floor(durationSec / 60)}:${Math.floor(durationSec % 60)} min`
+      return `${Math.floor(durationSec / 60)}:${Math.floor(
+        durationSec % 60
+      )} min`;
     }
   }
 };
@@ -75,35 +85,55 @@ export default {
   color: #2c3e50;
   margin-top: 30px;
   display: grid;
-  grid-template-rows: 60px 10vw auto;
+  grid-template-rows: auto auto auto;
 }
 
 .header {
   grid-row: 1 / 2;
+  margin: 20px 0;
 }
 
 .info {
   grid-row: 2 / 3;
+  margin: 20px 0;
 }
 
 .cover-section {
   grid-row: 3 / 4;
 }
 
-.cover-container {
+.cover-grid {
   display: grid;
-  grid-template-columns: auto repeat(4, 300px) auto;
-  grid-auto-flow: column;
-  grid-gap: 5px;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(auto-fill, 300px);
+  grid-auto-flow: row;
+  justify-content: center;
+  grid-gap: 10px;
 }
 
-.cover-container div {
-  grid-column: 2 / 6;
-  width: 300px;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid green;
+.tile {
+  position: relative;
+}
+
+.tile img {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.tile:hover img {
+  opacity: 0.3;
+}
+
+.track-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(46, 46, 46);
+  opacity: 0;
+}
+
+.tile:hover .track-info {
+  opacity: 1;
 }
 </style>
