@@ -2,8 +2,17 @@
   <div class="container">
     <div class="header">
       <label for="id-input">Enter your Playlist ID:</label>
-      <input id="id-input" type="text" class="input" required>
-      <button class="fetch-btn" @click="fetchPlaylist">FETCH</button>
+      <input
+        id="id-input"
+        type="text"
+        class="input"
+        required
+        :disabled="!token"
+        v-model="playlistId"
+      >
+      <button class="fetch-btn" @click="fetchPlaylist($event)" :disabled="!token">FETCH</button>
+      <button v-if="token" disabled>LOGGED IN</button>
+      <button v-else @click="startAuth">LOGIN</button>
     </div>
 
     <div class="info" v-if="playlist">
@@ -15,7 +24,9 @@
 
     <div class="cover-section" v-if="playlist">
       <div class="cover-container">
-        <div v-for="track in playlist.tracks.items" :key="track.track.id"><img :src="track.track.album.images[1].url" alt="cover brudi"></div>
+        <div v-for="track in playlist.tracks.items" :key="track.track.id">
+          <img :src="track.track.album.images[1].url" alt="cover brudi">
+        </div>
       </div>
     </div>
   </div>
@@ -31,31 +42,62 @@ export default {
   },
   data() {
     return {
-      playlist: null
+      playlist: null,
+      clientId: "0c45b5ac0e5747e5b9f404c7b6f014fb",
+      redirectUri: "http://localhost:8080",
+      playlistId: "6id5t7Oao2KXLXYf1TG4MZ",
+      token: ""
     };
   },
   methods: {
-    fetchPlaylist() {
-      let token =
-        "BQAI9X2UgLMIPmVJytt3Sm8l4IugExsUr7-vyqNd2pIMIb_7TqjVnONPkRLS3yeTezchXbHx0eBIv9FTU2bkrrzg9rtQwvXeH0YTwrasTSuP2WEHWRiJKVAAPe7WRAb5fiqGg3s21QMH-d02qkUwkhF9zkh9";
-      let id = "6id5t7Oao2KXLXYf1TG4MZ";
-      fetch(`https://api.spotify.com/v1/playlists/${id}`, {
-        headers: { Authorization: `Bearer ${token}` }
+    startAuth() {
+      window.location = `https://accounts.spotify.com/authorize?client_id=${
+        this.clientId
+      }&response_type=token&redirect_uri=${
+        this.redirectUri
+      }&scope=user-read-private%20user-read-email`;
+    },
+    fetchPlaylist(event) {
+      fetch(`https://api.spotify.com/v1/playlists/${this.playlistId}`, {
+        headers: { Authorization: `Bearer ${this.token}` }
       })
-        .then(res => res.json())
-        .then(body => (this.playlist = body));
+        .then(res => {
+          if (res.ok) {
+            return res.json();
+          }
+          if (res.status === 401) {
+            this.token = null;
+            throw Error(`Auth token expired, please login again`);
+          }
+          throw Error(`Playlist rejected with status code ${res.status}`);
+        })
+        .then(body => (this.playlist = body))
+        .catch(console.error);
     }
   },
   computed: {
     totalLength() {
       if (!this.playlist) return null;
 
-      let durationSec = this.playlist.tracks.items.reduce(
-        (total, el) => total + el.track.duration_ms,
-        0
-      ) / 1000;
+      let durationSec =
+        this.playlist.tracks.items.reduce(
+          (total, el) => total + el.track.duration_ms,
+          0
+        ) / 1000;
 
-      return `${Math.floor(durationSec / 60)}:${Math.floor(durationSec % 60)} min`
+      return `${Math.floor(durationSec / 60)}:${Math.floor(
+        durationSec % 60
+      )} min`;
+    }
+  },
+  mounted() {
+    let tokenStr = window.location.hash.replace(
+      /.*access_token=([^&]*).*/,
+      "$1"
+    );
+    if (tokenStr) {
+      this.token = tokenStr;
+      window.location.hash = "";
     }
   }
 };
