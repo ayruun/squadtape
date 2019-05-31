@@ -1,49 +1,35 @@
 <template>
   <div class="container">
-    <div class="header">
-      <label for="id-input">Enter your Playlist ID:</label>
-      <input
-        id="id-input"
-        type="text"
-        class="input"
-        required
-        :disabled="!token"
-        v-model="playlistId"
-      >
-      <button class="fetch-btn" @click="fetchPlaylist($event)" :disabled="!token">FETCH</button>
-      <button v-if="token" disabled>LOGGED IN</button>
-      <button v-else @click="startAuth">LOGIN</button>
-    </div>
+    <TheHeader
+      v-model="playlistId"
+      :logged-in="!!token"
+      @fetchPlaylist="fetchPlaylist"
+      @startAuth="startAuth"
+    />
 
-    <div class="info" v-if="playlist">
-      <h1>{{ playlist.name }}</h1>
-      <p>{{ playlist.description }}</p>
-      <p>Tracks: {{ playlist.tracks.total }} Duration: {{ totalLength }}</p>
-      <!-- @TODO: add image playlist cover at the left -->
-    </div>
+    <TheInfoBox
+      v-if="playlist"
+      :name="playlist.name"
+      :description="playlist.description"
+      :total="playlist.tracks.total"
+      :duration="totalLength"
+    />
 
-    <div class="cover-section" v-if="playlist">
-      <div class="cover-grid">
-        <div class="tile" v-for="track in playlist.tracks.items" :key="track.track.id">
-          <div class="track-info">
-            <p>Artist:</p>
-            <p>Track:</p>
-            <p>Duration:</p>
-          </div>
-          <img :src="track.track.album.images[1].url" alt="cover brudi">
-        </div>
-      </div>
-    </div>
+    <Grid v-if="playlist" :tracks="playlist.tracks.items" />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import TheHeader from "./components/TheHeader.vue";
+import TheInfoBox from "./components/TheInfoBox";
+import Grid from "./components/Grid";
 
 export default {
-  name: "app",
+  name: "App",
   components: {
-    // HelloWorld
+    TheHeader,
+    TheInfoBox,
+    Grid
   },
   data() {
     return {
@@ -53,32 +39,6 @@ export default {
       playlistId: "6id5t7Oao2KXLXYf1TG4MZ",
       token: ""
     };
-  },
-  methods: {
-    startAuth() {
-      window.location = `https://accounts.spotify.com/authorize?client_id=${
-        this.clientId
-      }&response_type=token&redirect_uri=${
-        this.redirectUri
-      }&scope=user-read-private%20user-read-email`;
-    },
-    fetchPlaylist(event) {
-      fetch(`https://api.spotify.com/v1/playlists/${this.playlistId}`, {
-        headers: { Authorization: `Bearer ${this.token}` }
-      })
-        .then(res => {
-          if (res.ok) {
-            return res.json();
-          }
-          if (res.status === 401) {
-            this.token = null;
-            throw Error(`Auth token expired, please login again`);
-          }
-          throw Error(`Playlist rejected with status code ${res.status}`);
-        })
-        .then(body => (this.playlist = body))
-        .catch(console.error);
-    }
   },
   computed: {
     totalLength() {
@@ -104,6 +64,32 @@ export default {
       this.token = tokenStr;
       window.location.hash = "";
     }
+  },
+  methods: {
+    startAuth() {
+      window.location = `https://accounts.spotify.com/authorize?client_id=${
+        this.clientId
+      }&response_type=token&redirect_uri=${
+        this.redirectUri
+      }&scope=user-read-private%20user-read-email`;
+    },
+    fetchPlaylist() {
+      fetch(`https://api.spotify.com/v1/playlists/${this.playlistId}`, {
+        headers: { Authorization: `Bearer ${this.token}` }
+      })
+        .then(res => {
+          if (res.ok) {
+            return res.json();
+          }
+          if (res.status === 401) {
+            this.token = null;
+            throw Error(`Auth token expired, please login again`);
+          }
+          throw Error(`Playlist rejected with status code ${res.status}`);
+        })
+        .then(body => (this.playlist = body))
+        .catch(console.error);
+    }
   }
 };
 </script>
@@ -125,52 +111,4 @@ export default {
   grid-template-rows: auto auto auto;
 }
 
-.header {
-  grid-row: 1 / 2;
-  margin: 20px 0;
-}
-
-.info {
-  grid-row: 2 / 3;
-  margin: 20px 0;
-}
-
-.cover-section {
-  grid-row: 3 / 4;
-}
-
-.cover-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 300px);
-  grid-template-rows: repeat(auto-fill, 300px);
-  grid-auto-flow: row;
-  justify-content: center;
-  grid-gap: 10px;
-}
-
-.tile {
-  position: relative;
-}
-
-.tile img {
-  opacity: 1;
-  transition: 0.5s ease;
-}
-
-.tile:hover img {
-  opacity: 0.3;
-}
-
-.track-info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(46, 46, 46);
-  opacity: 0;
-}
-
-.tile:hover .track-info {
-  opacity: 1;
-}
 </style>
