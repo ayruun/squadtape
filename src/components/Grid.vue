@@ -14,10 +14,10 @@ export default {
     GridTile
   },
   props: {
-      tracks: {
-          type: Array,
-          required: true
-      }
+    tracks: {
+      type: Array,
+      required: true
+    }
   }
 };
 </script>
@@ -25,6 +25,7 @@ export default {
 <style>
 .cover-section {
   grid-row: 3 / 4;
+  margin: 25px 0;
 }
 
 .cover-grid {

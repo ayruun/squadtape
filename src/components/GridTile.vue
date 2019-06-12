@@ -5,9 +5,7 @@
       <p>Track: {{ track.name }}</p>
       <p>Duration: {{ durationStr }}</p>
     </div>
-    <img :src="track.album.images[1].url"
-         alt="image of cover"
-    >
+    <img :src="track.album.images[1].url" alt="image of cover">
   </div>
 </template>
 

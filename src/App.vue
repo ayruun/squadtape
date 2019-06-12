@@ -110,5 +110,4 @@ export default {
   display: grid;
   grid-template-rows: auto auto auto;
 }
-
 </style>
