@@ -15,7 +15,7 @@
       :duration="totalLength"
     />
 
-    <Grid v-if="playlist" :tracks="playlist.tracks.items" />
+    <Grid v-if="playlist" :tracks="playlist.tracks.items" :msToTime="msToTime"/>
   </div>
 </template>
 
@@ -44,15 +44,13 @@ export default {
     totalLength() {
       if (!this.playlist) return null;
 
-      let durationSec =
+      let durationMs =
         this.playlist.tracks.items.reduce(
           (total, el) => total + el.track.duration_ms,
           0
-        ) / 1000;
+        );
 
-      return `${Math.floor(durationSec / 60)}:${Math.floor(
-        durationSec % 60
-      )} min`;
+      return this.msToTime(durationMs);
     }
   },
   mounted() {
@@ -89,6 +87,15 @@ export default {
         })
         .then(body => (this.playlist = body))
         .catch(console.error);
+    },
+    msToTime(duration) {
+      var seconds = parseInt((duration / 1000) % 60),
+        minutes = parseInt(duration / (1000 * 60));
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      return `${minutes}:${seconds} min`;
     }
   }
 };

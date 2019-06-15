@@ -1,7 +1,7 @@
 <template>
   <div class="cover-section">
     <div class="cover-grid">
-      <GridTile v-for="track in tracks" :key="track.track.id" :track="track.track" />
+      <GridTile v-for="track in tracks" :key="track.track.id" :track="track.track" :msToTime="msToTime"/>
     </div>
   </div>
 </template>
@@ -16,6 +16,10 @@ export default {
   props: {
     tracks: {
       type: Array,
+      required: true
+    },
+    msToTime: {
+      type: Function,
       required: true
     }
   }
