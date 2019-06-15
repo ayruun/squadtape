@@ -1,7 +1,7 @@
 <template>
   <div class="cover-section">
     <div class="cover-grid">
-      <GridTile v-for="track in tracks" :key="track.track.id" :track="track.track" :ms-to-time="msToTime" />
+      <GridTile v-for="track in tracks" :key="track.track.id" :track="track.track" :ms-to-time="msToTime" @playing="pauseAll" />
     </div>
   </div>
 </template>
@@ -21,6 +21,17 @@ export default {
     msToTime: {
       type: Function,
       required: true
+    }
+  },
+  methods: {
+    pauseAll(trackId) {
+      this.$children.forEach(element => {
+        if (element.track.id !== trackId) {
+          console.log(element.track.id, trackId)
+          element.pauseTrack();
+        }
+        
+      });
     }
   }
 };
