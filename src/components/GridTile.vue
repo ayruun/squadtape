@@ -15,15 +15,15 @@ export default {
     track: {
       type: Object,
       required: true
+    },
+    msToTime: {
+      type: Function,
+      required: true
     }
   },
   computed: {
     durationStr() {
-      let durationSec = this.track.duration_ms / 1000;
-
-      return `${Math.floor(durationSec / 60)}:${Math.floor(
-        durationSec % 60
-      )} min`;
+      return this.msToTime(this.track.duration_ms);
       // @TODO: Optimize duration calculation
     }
   }
