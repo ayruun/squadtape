@@ -15,7 +15,7 @@
       :duration="totalLength"
     />
 
-    <Grid v-if="playlist" :tracks="playlist.tracks.items" :msToTime="msToTime"/>
+    <Grid v-if="playlist" :tracks="playlist.tracks.items" :ms-to-time="msToTime" />
   </div>
 </template>
 

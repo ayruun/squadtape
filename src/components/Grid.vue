@@ -1,7 +1,7 @@
 <template>
   <div class="cover-section">
     <div class="cover-grid">
-      <GridTile v-for="track in tracks" :key="track.track.id" :track="track.track" :msToTime="msToTime"/>
+      <GridTile v-for="track in tracks" :key="track.track.id" :track="track.track" :ms-to-time="msToTime" />
     </div>
   </div>
 </template>
