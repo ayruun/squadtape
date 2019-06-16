@@ -8,8 +8,8 @@
       <p>Duration: {{ durationStr }}</p>
       <audio ref="audio" :src="track.preview_url" />
       <button class="controls" @click="togglePlay">
-        {{ buttonText }}
-      </button>
+{{ buttonText }}
+</button>
     </div>
   </div>
 </template>
@@ -35,10 +35,10 @@ export default {
       // @TODO: Optimize duration calculation
     },
     buttonText() {
-      if (!this.isPlaying) {
-        return "PLAY";
-      } else {
+      if (this.isPlaying) {
         return "PAUSE";
+      } else {
+        return "PLAY";
       }
     }
   },
@@ -55,6 +55,7 @@ export default {
     },
     pauseTrack() {
       this.$refs.audio.pause();
+      this.isPlaying = false;
     }
   }
 };
