@@ -10,6 +10,26 @@ const fileName = "playlistData.json";
 const userId = "ayruun";
 const apiPageLimit = 50;
 
+const fields = `
+id,
+name,
+description,
+images,
+tracks.items(
+  track(
+    id,
+    name,
+    duration_ms,
+    preview_url,
+    album.images,
+    artists(
+      name
+    )
+  )
+),
+tracks.total
+`.replace(/\s/g, "")
+
 const clientId = "0c45b5ac0e5747e5b9f404c7b6f014fb";
 const redirectUri = `http://localhost:${port}`;
 const authUrl = `https://accounts.spotify.com/authorize\
@@ -45,15 +65,28 @@ app.get("/token", async (req, res) => {
       .catch(err => console.log(err.toJSON()));
 
     playlists.push(
-      ...data.items.filter(el => {
-        return el.name.indexOf("Squad Tape") > -1;
-      })
+      ...data.items
+        .filter(el => {
+          return el.name.indexOf("Squad Tape") > -1;
+        })
+        .map(({ id }) => id)
     );
 
     if (!data.next) {
       break;
     }
   }
+
+  playlists = await Promise.all(playlists.map(async playlistId => {
+    const { data } = await axios
+      .get(
+        `https://api.spotify.com/v1/playlists/${playlistId}?fields=${fields}`,
+        { headers: { Authorization: `Bearer ${access_token}` } }
+      )
+      .catch(err => console.log(err.toJSON()));
+
+    return data;
+  }))
 
   fs.writeFile(fileName, JSON.stringify(playlists, null, "  "), "utf8", () => {
     let msg = `Done. Saved ${playlists.length} playlists to file ${fileName}.`;
