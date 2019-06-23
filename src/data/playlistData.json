@@ -1,0 +1,2592 @@
+[
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6id5t7Oao2KXLXYf1TG4MZ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6id5t7Oao2KXLXYf1TG4MZ",
+    "id": "6id5t7Oao2KXLXYf1TG4MZ",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/d486e824a417aa491b1e8b1445a40da7dbb0f881",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 19/01",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjEsYjg1NTgwZGMxNzYyZDRiMDMwMTllYzRjMDBhYTgyMzhhZWJlN2E2Ng==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6id5t7Oao2KXLXYf1TG4MZ/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6id5t7Oao2KXLXYf1TG4MZ"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0o1ius1q35rMnvwDbl9Lff"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0o1ius1q35rMnvwDbl9Lff",
+    "id": "0o1ius1q35rMnvwDbl9Lff",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/4780c79af1656f579f4ef353624d46b5b6d18459",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/15",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjEsMjc2M2NhODJjZjg0YjJhMmVmZDgwYTBiY2ExM2VjY2JiN2U2YmRlMA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0o1ius1q35rMnvwDbl9Lff/tracks",
+      "total": 15
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0o1ius1q35rMnvwDbl9Lff"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5oBUrD27a6J2UHtuO1WIQz"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5oBUrD27a6J2UHtuO1WIQz",
+    "id": "5oBUrD27a6J2UHtuO1WIQz",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/3146dc434c91288dba43c4aaeb499c809e98ea7a",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/14",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NDgsYzVhNzM0MDRlNDc0ZjIzYjk3MmRmYmI2MzFmM2Q1Y2M5Yjc3NjkwZQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5oBUrD27a6J2UHtuO1WIQz/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5oBUrD27a6J2UHtuO1WIQz"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/470hSeVtT3antna4obCQsV"
+    },
+    "href": "https://api.spotify.com/v1/playlists/470hSeVtT3antna4obCQsV",
+    "id": "470hSeVtT3antna4obCQsV",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/f75b2a25a9b347644103d53e8e1f0cdebbb2307e",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/13",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzEsYzQ3MzI1MGU2ZmY5MmIyMTQ4Nzg0M2ZmNTAxNzljODZmNGI2Mzk3MA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/470hSeVtT3antna4obCQsV/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:470hSeVtT3antna4obCQsV"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2oebgjeNm6Bvrr6cWSLGdQ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2oebgjeNm6Bvrr6cWSLGdQ",
+    "id": "2oebgjeNm6Bvrr6cWSLGdQ",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/2fae5b6417a5aad7ad872c88b279c276e8b4d9b1",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/12",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTgsNjljN2NjNzgzMTg5YTk5OTIzZmYyMzBhMWY0YmFiY2UwMDE1YTYyNA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2oebgjeNm6Bvrr6cWSLGdQ/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2oebgjeNm6Bvrr6cWSLGdQ"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2q2q9raDV5TurOUco1qHvF"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2q2q9raDV5TurOUco1qHvF",
+    "id": "2q2q9raDV5TurOUco1qHvF",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/8f2027d15fc000f52cb8c93688fade9016eef795",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/11",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjksZWU4ZGQxMjQ0MDNiMjBiMTVhZmQ0ZTNiZjdjOTdjNzZlNzJmN2NjYg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2q2q9raDV5TurOUco1qHvF/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2q2q9raDV5TurOUco1qHvF"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7poonkqiPnW2Oeyg5T4cqg"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7poonkqiPnW2Oeyg5T4cqg",
+    "id": "7poonkqiPnW2Oeyg5T4cqg",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/1a70401d289578cd9c4058d5420982b8796c92c1",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/10",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzMsYTAwMjZmNGRjNjZmMmZmOWZjNDY1M2IwNmY4NzNmODIyNDEzYThlNg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7poonkqiPnW2Oeyg5T4cqg/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7poonkqiPnW2Oeyg5T4cqg"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4Y7iEkZZfzao2w8jEEbcKU"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4Y7iEkZZfzao2w8jEEbcKU",
+    "id": "4Y7iEkZZfzao2w8jEEbcKU",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/faefc03de18444bb000e270d16f2be29358b8302",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/09",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzYsMjRlYjIwZjFjNWVkNDlmYTRiZDJmMzE2ZjEzMTZlYTgzODg2ZDNiYw==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4Y7iEkZZfzao2w8jEEbcKU/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4Y7iEkZZfzao2w8jEEbcKU"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7KZLUkyUchwbVKwAAMVVln"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7KZLUkyUchwbVKwAAMVVln",
+    "id": "7KZLUkyUchwbVKwAAMVVln",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/d12f6033f67344fcb07fe1737bc77c81872dcd41",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/08",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjgsZDA1ODBjZmFiN2U5MDhmOWE0ZTcwNDBmZjc4NTMxMDEzMDAwZDNhOA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7KZLUkyUchwbVKwAAMVVln/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7KZLUkyUchwbVKwAAMVVln"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5MHFbjjctO1bUQB894R4CO"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5MHFbjjctO1bUQB894R4CO",
+    "id": "5MHFbjjctO1bUQB894R4CO",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/9001510e334a3e1ecc07af5a6cfb5c26f9402e0b",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/07",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzksYjBjNGQ2NDZlY2RkNzBlZmQ1ZWYyYmE1YzQ4MWY4NTAwMjNhYTE0Mg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5MHFbjjctO1bUQB894R4CO/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5MHFbjjctO1bUQB894R4CO"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/40RflFMOicR6PUmWz3foIh"
+    },
+    "href": "https://api.spotify.com/v1/playlists/40RflFMOicR6PUmWz3foIh",
+    "id": "40RflFMOicR6PUmWz3foIh",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/2cfdedaa45c019776f4b1caacffb85c8ce229dbe",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/06",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzYsZmRkMmNjMDliNmM5NWJkOTIwODhmOTA3NjkwMjQwMzE1MGVkNWRjNA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/40RflFMOicR6PUmWz3foIh/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:40RflFMOicR6PUmWz3foIh"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6gPPfCG8Q8glfEinadk4dI"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6gPPfCG8Q8glfEinadk4dI",
+    "id": "6gPPfCG8Q8glfEinadk4dI",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/30e7051ad62be01aaec4abef7dc4c09c9cfa98b2",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/05",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjksNDA3NTQyNWI2OTU0NTRiNDRjNmIxMmQzNGU5MWUxZDIxNTM0ZjY5OQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6gPPfCG8Q8glfEinadk4dI/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6gPPfCG8Q8glfEinadk4dI"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7LrOwfLFNlPkQ6uNL2l25j"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7LrOwfLFNlPkQ6uNL2l25j",
+    "id": "7LrOwfLFNlPkQ6uNL2l25j",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/839d3d2dce93edcd93f7517e8254a0d96852bccf",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/04",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjMsMGRiYzUwMzczYzJjNjVjMWYyMGYwZmI5NjdmODdlYWE2MDRmZjlhMA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7LrOwfLFNlPkQ6uNL2l25j/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7LrOwfLFNlPkQ6uNL2l25j"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7srDMuJPExLGzdauQD5ya4"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7srDMuJPExLGzdauQD5ya4",
+    "id": "7srDMuJPExLGzdauQD5ya4",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/9da77c511f033dbbec7120bd68eec3864adfdd3c",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/03",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjgsOGM2YWY0N2UxYzMyZjY5ZGEwNjQyMTRkOTUyZWZiM2VlNGQzZjY0YQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7srDMuJPExLGzdauQD5ya4/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7srDMuJPExLGzdauQD5ya4"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5qvgYi4DGrcDG1jcJh2kat"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5qvgYi4DGrcDG1jcJh2kat",
+    "id": "5qvgYi4DGrcDG1jcJh2kat",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/c6e441efc40535e81bc6fefdb022750cbf9f5462",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/02",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzQsZjM4NzcxYjA4MzExMjA2ZGFjMjczZjJjNjQyY2Y4NzdiZTk1NDMxNQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5qvgYi4DGrcDG1jcJh2kat/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5qvgYi4DGrcDG1jcJh2kat"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2cGS1FRt6RKqcJm6nYhbRK"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2cGS1FRt6RKqcJm6nYhbRK",
+    "id": "2cGS1FRt6RKqcJm6nYhbRK",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/fecb3e2fc767dcbac79d903923e5cc932981a647",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 18/01",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzEsZTIxYWNkZmEyMDgyZDg5NTFmYjVkY2U5NjhkMzg1ZmYwMWIyMjE2ZQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2cGS1FRt6RKqcJm6nYhbRK/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2cGS1FRt6RKqcJm6nYhbRK"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3gdwbmaeMr5w2QpWgM1DUk"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3gdwbmaeMr5w2QpWgM1DUk",
+    "id": "3gdwbmaeMr5w2QpWgM1DUk",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/7c2b7bc845445a35eb6fa027de5a1df4e4372d0b",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 2017 most listened",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "OCwyNTg4YWJkNmI4OGM5YzA3NDQwZTY1YzBkODU2Y2JmNmNkOTIzMzJj",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3gdwbmaeMr5w2QpWgM1DUk/tracks",
+      "total": 97
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3gdwbmaeMr5w2QpWgM1DUk"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3tckLUBvsbCmV4p6ZGH0Uq"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3tckLUBvsbCmV4p6ZGH0Uq",
+    "id": "3tckLUBvsbCmV4p6ZGH0Uq",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/c4044c423ecc636c91d930a1ac592e2fbecd15ce",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/51",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzYsYTI3OGFmMDQ1MDUyMDBkMTJhOThmN2FiZjdhNDgwNDNjYjI1MWY3YQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3tckLUBvsbCmV4p6ZGH0Uq/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3tckLUBvsbCmV4p6ZGH0Uq"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5HzMACINoL5FmooP6v5aQk"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5HzMACINoL5FmooP6v5aQk",
+    "id": "5HzMACINoL5FmooP6v5aQk",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/171e1dadf940727f59ddd88d58bf30442307056a",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/50",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTgsYWU3YjAxNTMzZDUwNTI1NmQwYmI2OWExZGY1NGIyNTMxM2MxZjAyMA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5HzMACINoL5FmooP6v5aQk/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5HzMACINoL5FmooP6v5aQk"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5xufsd21F4gbShWMmaMn4u"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5xufsd21F4gbShWMmaMn4u",
+    "id": "5xufsd21F4gbShWMmaMn4u",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/b96d2ced3d0044e42866548da37d12582a30b8ef",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/49",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzEsMDUwZWQ1YmViZTllY2FlYTc1N2Q5ODMwY2NiMmQ0NTVlNDQ4ODVlMQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5xufsd21F4gbShWMmaMn4u/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5xufsd21F4gbShWMmaMn4u"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4IlzRT9zTcTEHsEY0Epnlr"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4IlzRT9zTcTEHsEY0Epnlr",
+    "id": "4IlzRT9zTcTEHsEY0Epnlr",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/925bd5a630235712b7ed38f6016d74bcd69652b6",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/48",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzIsYzQzN2VmODcwY2NjNmM2ZmJhNGQ5NWRlZTZiYmY1MGFhMDhhYjJkMw==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4IlzRT9zTcTEHsEY0Epnlr/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4IlzRT9zTcTEHsEY0Epnlr"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1CLbK9M5bgDnXEFcgJv4Ro"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1CLbK9M5bgDnXEFcgJv4Ro",
+    "id": "1CLbK9M5bgDnXEFcgJv4Ro",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/99b6a22ad6165aab71c79efc4bddf8a1b0e2394a",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/47",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjUsODM2NWZjMDM3Y2JjZGZlYTJiMDU0NWMyNTk5MzYwYzRlMThhYTg2Ng==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1CLbK9M5bgDnXEFcgJv4Ro/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1CLbK9M5bgDnXEFcgJv4Ro"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1bIKyYZAUlvPQNgRcwlDGK"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1bIKyYZAUlvPQNgRcwlDGK",
+    "id": "1bIKyYZAUlvPQNgRcwlDGK",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/decc0ff39eb94b7fd587c263b42e72fcb9c75899",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/46",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTksNzFhOTQxYmNlM2Y5ZmMzOGQzMTc5OGM5ZmJmOWFmNjE2NmY4Nzk0NA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1bIKyYZAUlvPQNgRcwlDGK/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1bIKyYZAUlvPQNgRcwlDGK"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0Kd6iA278pfQrrBpPqalIe"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0Kd6iA278pfQrrBpPqalIe",
+    "id": "0Kd6iA278pfQrrBpPqalIe",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/91fa6c403c41e2f196382c4d36306bbb10328332",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/45",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzAsMTRmNWY4YTI4ODZiYmZjZjU2M2ZlMTNiZGIxMDNlOTU5ZmEyZWVhZg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0Kd6iA278pfQrrBpPqalIe/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0Kd6iA278pfQrrBpPqalIe"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1B7SxlbciYC802HpfIx40j"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1B7SxlbciYC802HpfIx40j",
+    "id": "1B7SxlbciYC802HpfIx40j",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/ef283bf7e7dd4464031ddc3447bc5e268ccb758a",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/44",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzIsYzRhMzQ3NWIyY2ZiYmFjNTUyZjU4ZjQ1MjQ5NjY2YWE0NzY4YTdjNg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1B7SxlbciYC802HpfIx40j/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1B7SxlbciYC802HpfIx40j"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/72VquWI6l1cNy1iQ9b7hNX"
+    },
+    "href": "https://api.spotify.com/v1/playlists/72VquWI6l1cNy1iQ9b7hNX",
+    "id": "72VquWI6l1cNy1iQ9b7hNX",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/b6625182a64b53f29c663b88662880b7e430af3e",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/43",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjcsMDBlY2RlNjFmOWIyOWI2NDM4MGQzM2U1Y2I3ZmI5YzFlNGQzMGRkNQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/72VquWI6l1cNy1iQ9b7hNX/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:72VquWI6l1cNy1iQ9b7hNX"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3XnBpQFLRUCwNwsu6H3Hus"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3XnBpQFLRUCwNwsu6H3Hus",
+    "id": "3XnBpQFLRUCwNwsu6H3Hus",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/be5f5c32c0d682e75d649f31fe50c74ddeafbcb9",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/42",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjcsN2JiMTEyYzMzNDJkZjk3NWY3NDk4NmU4NTY4YmJiNTQzNDYxODVkOA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3XnBpQFLRUCwNwsu6H3Hus/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3XnBpQFLRUCwNwsu6H3Hus"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7dsKmuw75BF53WJ2DP1h9x"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7dsKmuw75BF53WJ2DP1h9x",
+    "id": "7dsKmuw75BF53WJ2DP1h9x",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/2448db37ee3cb90e696b2c0ae23427b1beacb87f",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/41",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjksM2EwMWI2YTdmNTcwYWVmMjdhNzk5OGY2YzdkYjNkMmQ5YmVhNTZmMA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7dsKmuw75BF53WJ2DP1h9x/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7dsKmuw75BF53WJ2DP1h9x"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7tTi00GGqRyzfGEq3nnshS"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7tTi00GGqRyzfGEq3nnshS",
+    "id": "7tTi00GGqRyzfGEq3nnshS",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/d8994ac05ffa5683ade8a640f0112e6347d7d63d",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/40",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTgsNjM5ZWIwZTQwM2MxOWVkNTBhOTE1NjA0NDkyMmIyMmQ2NTVjMGQyYg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7tTi00GGqRyzfGEq3nnshS/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7tTi00GGqRyzfGEq3nnshS"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/09Xe8aTWAAyJuMDje1fPnC"
+    },
+    "href": "https://api.spotify.com/v1/playlists/09Xe8aTWAAyJuMDje1fPnC",
+    "id": "09Xe8aTWAAyJuMDje1fPnC",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/1541004f4867c98b52048dc8cf7c3f526f574b89",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/39",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjMsMjJjNjgxNTQyNGRjNDlkNzFiZjMxNmFhYTZlMjYyZDU2YjM0ZTBlNg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/09Xe8aTWAAyJuMDje1fPnC/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:09Xe8aTWAAyJuMDje1fPnC"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4CQFXT2bYVqiuYhmcvtIO7"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4CQFXT2bYVqiuYhmcvtIO7",
+    "id": "4CQFXT2bYVqiuYhmcvtIO7",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/db8d83cd1d58531f6024ca2e5cab4a7b3de3f1d8",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/38",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NTcsZGMxMTk1ODIyZTM0YTU1MjA0ZTkzZGMyMzAzNGJiNjFiYTZmODUzZg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4CQFXT2bYVqiuYhmcvtIO7/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4CQFXT2bYVqiuYhmcvtIO7"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4jMvcfyxl7qsC8qSot0NjL"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4jMvcfyxl7qsC8qSot0NjL",
+    "id": "4jMvcfyxl7qsC8qSot0NjL",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/69ba50abb2fb4b0cb0b22704f192e5820766731b",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/37",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTksNDA3NmEyYTM2NTBkMTMyMmE4ODI2NTdmYzU1OThlYTk2MmQ2ZDYyYg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4jMvcfyxl7qsC8qSot0NjL/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4jMvcfyxl7qsC8qSot0NjL"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/09jNvwgw8P9WXjC1BQ6pbq"
+    },
+    "href": "https://api.spotify.com/v1/playlists/09jNvwgw8P9WXjC1BQ6pbq",
+    "id": "09jNvwgw8P9WXjC1BQ6pbq",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/c0df4a4a42138d64cdc22e363df90c6ca1c11454",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/36",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzAsMGVjYWRiYjc2MzNmMTJhODYyYWEwMjc3NmQ2ZWY1YWM5NjI0MjI1NQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/09jNvwgw8P9WXjC1BQ6pbq/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:09jNvwgw8P9WXjC1BQ6pbq"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3wepnUzcrQVSX0iynqpifz"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3wepnUzcrQVSX0iynqpifz",
+    "id": "3wepnUzcrQVSX0iynqpifz",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/e00cbfac82e66570aa82f4223a4ce15778289fac",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/35",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjEsY2M1ZmJhZGFiYTAwNTYxYWRiZjI5NzRhNjIwNWJlYzJmMTk5MjY4MQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3wepnUzcrQVSX0iynqpifz/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3wepnUzcrQVSX0iynqpifz"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7ibKgvbKOmb0kfResHKefO"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7ibKgvbKOmb0kfResHKefO",
+    "id": "7ibKgvbKOmb0kfResHKefO",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/d8bb2e015ecf172007957c1e3a42f36d5a4f1151",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/34",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzEsOWVmNzI5N2I3YzFkZTRiOGM0NWQ3MjI0N2E5MGJiNzE0YTcxZDc1Yg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7ibKgvbKOmb0kfResHKefO/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7ibKgvbKOmb0kfResHKefO"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4VV39IHezLv0VUnSysu5hY"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4VV39IHezLv0VUnSysu5hY",
+    "id": "4VV39IHezLv0VUnSysu5hY",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/e86b9d2b661d55f4a63086a88c62f63ec92c64d9",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/33",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTMsNTEwN2VjOGJlODUyNmU5N2ViY2YzNGI4M2ZlODcwNTY3MmUyMTVlMA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4VV39IHezLv0VUnSysu5hY/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4VV39IHezLv0VUnSysu5hY"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/68qcXOab8N5F4V61BABYpp"
+    },
+    "href": "https://api.spotify.com/v1/playlists/68qcXOab8N5F4V61BABYpp",
+    "id": "68qcXOab8N5F4V61BABYpp",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/5927ee1321d1ffa86e8ab7957a671dabd5f27d47",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/32",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzQsNWUxNTZlYjc2ZjI5OGJmYjFhNjM3NWQzMGU4OGI1MzQ5NzdmNWU1YQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/68qcXOab8N5F4V61BABYpp/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:68qcXOab8N5F4V61BABYpp"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5Nmu0Nps20juzhrhfIJE1S"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5Nmu0Nps20juzhrhfIJE1S",
+    "id": "5Nmu0Nps20juzhrhfIJE1S",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/19e5dffd884b3819517cc1e6f29eb9921ad419a0",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/31",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NDEsNzg4ZmJmYTBhNjZhZDMxZjNiZGQzNjYwMTdlMjgzZTkyZWE0OTc2Nw==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5Nmu0Nps20juzhrhfIJE1S/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5Nmu0Nps20juzhrhfIJE1S"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3oHo1X6uUOqekFN0fxIgrO"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3oHo1X6uUOqekFN0fxIgrO",
+    "id": "3oHo1X6uUOqekFN0fxIgrO",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/5ad0d6db96a5274f1856f4ee7a0b20b8329599a2",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/30",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzUsMDkzMDI0NmEyZjZkNzY0NWJiMjk4MzA2ODI0Yjg0OTI2OWUzZDViNA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3oHo1X6uUOqekFN0fxIgrO/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3oHo1X6uUOqekFN0fxIgrO"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5pMvWkjmNxa6XukmRUe5Vx"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5pMvWkjmNxa6XukmRUe5Vx",
+    "id": "5pMvWkjmNxa6XukmRUe5Vx",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/4a1489c7fd594329c54742ab8673594778df784d",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/29",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjYsOGZkOGE3ODgzODM3YThmMTBiODA0YzUyNmZhYjNkZjg0MjE0M2RhZA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5pMvWkjmNxa6XukmRUe5Vx/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5pMvWkjmNxa6XukmRUe5Vx"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4unF7Ze9Bk9mjlorX0C5q2"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4unF7Ze9Bk9mjlorX0C5q2",
+    "id": "4unF7Ze9Bk9mjlorX0C5q2",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/a895479004bc44c4211e7c42267a5ff3c0b09e92",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/28",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTYsZTkxYmFmZDRhODNiNzJmZTIyYTk0MTdkZTViNzAzYzQ0MDJiMDBiMg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4unF7Ze9Bk9mjlorX0C5q2/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4unF7Ze9Bk9mjlorX0C5q2"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/347n6AsDeS6hfRl7GlNZnK"
+    },
+    "href": "https://api.spotify.com/v1/playlists/347n6AsDeS6hfRl7GlNZnK",
+    "id": "347n6AsDeS6hfRl7GlNZnK",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/ef4d614f81e863565f07fadffd9cffb96514b9e8",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/27",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjQsMDJiMGIzM2ZlODhhMTRmYWU4YzEzMjVmZjU0NWExYTk4YmZhOTk4Ng==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/347n6AsDeS6hfRl7GlNZnK/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:347n6AsDeS6hfRl7GlNZnK"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/21bhvLGkZbEy959oGb79Ih"
+    },
+    "href": "https://api.spotify.com/v1/playlists/21bhvLGkZbEy959oGb79Ih",
+    "id": "21bhvLGkZbEy959oGb79Ih",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/fc512e51302a1e43fb530385bf46ae17ee93082c",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/26",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjgsNTkzZTkyYTA1NTRiMTE4ODRiNTY5NmY3MzUwY2NhZThlN2U3MDRkZA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/21bhvLGkZbEy959oGb79Ih/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:21bhvLGkZbEy959oGb79Ih"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7FvJBYkUR0fjBTPPSEw5mJ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7FvJBYkUR0fjBTPPSEw5mJ",
+    "id": "7FvJBYkUR0fjBTPPSEw5mJ",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/e07d0654acaf93fd9b85de8e0614e2dfe040a8da",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/25",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjUsYWI5NjM5MzU2MGYwNDc0OWUwNWI5YmNhMTZjMmYyMWJhZWVjMTIyZA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7FvJBYkUR0fjBTPPSEw5mJ/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7FvJBYkUR0fjBTPPSEw5mJ"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0iKHfIhhGy5lUZXzyIebv5"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0iKHfIhhGy5lUZXzyIebv5",
+    "id": "0iKHfIhhGy5lUZXzyIebv5",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/af1e1715368c8c1550f990e7e44499e9e2248678",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/24",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzIsMGMzZjEyYTAxNDBkNjBmNzUyMWRmODY3OTUyMWM2MzdkMjViOTllOA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0iKHfIhhGy5lUZXzyIebv5/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0iKHfIhhGy5lUZXzyIebv5"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0RcEDpTuOyORgpc7dcsqQH"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0RcEDpTuOyORgpc7dcsqQH",
+    "id": "0RcEDpTuOyORgpc7dcsqQH",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/8e0ebc59a44709260d0c89ad7f0c33789f474abf",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/23",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjUsOGJlM2I5YjU3NzNmNjljMjdkODQ1NGI5ZTkyNzk3MWY1NDg0ODZkYQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0RcEDpTuOyORgpc7dcsqQH/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0RcEDpTuOyORgpc7dcsqQH"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/31vNGTEprWxNcccP5ncWID"
+    },
+    "href": "https://api.spotify.com/v1/playlists/31vNGTEprWxNcccP5ncWID",
+    "id": "31vNGTEprWxNcccP5ncWID",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/f0a4bbdbce2f9dd7ec42a19811ec94c4644bdaf3",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/22",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjMsZGYxMzQ1ZWYwZjcyODRhYTI3Nzk5Y2NjN2FjMmJjN2EwMjJmMWY4OA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/31vNGTEprWxNcccP5ncWID/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:31vNGTEprWxNcccP5ncWID"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0RPIOX3tJqVHYl61b79A4R"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0RPIOX3tJqVHYl61b79A4R",
+    "id": "0RPIOX3tJqVHYl61b79A4R",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/00ab115b5e6d064bdbb60817ceae85fd084feed0",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/21",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NDksYjQ5YjY5NWM1ZDNiNjU4OTk2OWY2ZGExYTEzMWJiNTY1YTllYzc1NQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0RPIOX3tJqVHYl61b79A4R/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0RPIOX3tJqVHYl61b79A4R"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1bzrSKHXK2VnVrwEQwvnYS"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1bzrSKHXK2VnVrwEQwvnYS",
+    "id": "1bzrSKHXK2VnVrwEQwvnYS",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/5b7db6673225879a5a051281f0b507edc5b39e52",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/20",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjEsODdlZmQ0ZmRkZTFkOTNkNmQxM2VkODlmZWM5N2VlNThkYWY0ZGU1ZA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1bzrSKHXK2VnVrwEQwvnYS/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1bzrSKHXK2VnVrwEQwvnYS"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3q8C6P5u40GgplZv46MT4r"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3q8C6P5u40GgplZv46MT4r",
+    "id": "3q8C6P5u40GgplZv46MT4r",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/a2867d730339fb7b45521e058073373d4981b9ac",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/19",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjIsNzVmMjcwZDgxZTkzOTU3NDdhYTcyYmY1NGEyODhiMmY5NzAzZDgwOA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3q8C6P5u40GgplZv46MT4r/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3q8C6P5u40GgplZv46MT4r"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3BPdJL3iFDRKeAJop4yKCl"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3BPdJL3iFDRKeAJop4yKCl",
+    "id": "3BPdJL3iFDRKeAJop4yKCl",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/03525f445def1645824b42c29a16264632166d23",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/17",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzIsZmM4MjMyNTkzYmNiMGFjY2NhMjMxNDdmMjc3NzkzOGQ5NWQ4OTVlNg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3BPdJL3iFDRKeAJop4yKCl/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3BPdJL3iFDRKeAJop4yKCl"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1d8Tb8gMm1rcXhnRUvQ1HK"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1d8Tb8gMm1rcXhnRUvQ1HK",
+    "id": "1d8Tb8gMm1rcXhnRUvQ1HK",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/3b99f2ebe8b753ff1c52fa93a00e39b398f7c0fa",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/16",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTYsYzcwNDVmMGMzNTg2YTI0NTc3Y2Q0N2RjN2E4MzRjMDI0YmU5MDhlMw==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1d8Tb8gMm1rcXhnRUvQ1HK/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1d8Tb8gMm1rcXhnRUvQ1HK"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6RXIiS5kntgJnMEgMf2ZHE"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6RXIiS5kntgJnMEgMf2ZHE",
+    "id": "6RXIiS5kntgJnMEgMf2ZHE",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/9eca99e64f5be0adbbf85c80ca91b5ce0d9e2069",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/15",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjYsMDU0YzZiYmY3NzI1YmQ2ZDAwNDliYWE5NDkzNTkwYWFlZTNhZGRjNA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6RXIiS5kntgJnMEgMf2ZHE/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6RXIiS5kntgJnMEgMf2ZHE"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4q2ObBiRyvsA7VLoiRh0fq"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4q2ObBiRyvsA7VLoiRh0fq",
+    "id": "4q2ObBiRyvsA7VLoiRh0fq",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/9659a6eb5546882c5406b222dbe3e704f4d1ad91",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/14",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjYsMzc3NmI2OTAzN2VlMzQ2YTMzZmE2NDcwOTY3ODg4OTg0OGI4YTdhOA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4q2ObBiRyvsA7VLoiRh0fq/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4q2ObBiRyvsA7VLoiRh0fq"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6Hd1u3lKfQvVAX3sicIEXx"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6Hd1u3lKfQvVAX3sicIEXx",
+    "id": "6Hd1u3lKfQvVAX3sicIEXx",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/4b69129a0c513016474b6815b2521418e757033a",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/13",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjMsOTQxODlhZDAyNTMyMzJhZWY5NWFjMWI5NGNlZDBhZGNmNGEyNzVlZQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6Hd1u3lKfQvVAX3sicIEXx/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6Hd1u3lKfQvVAX3sicIEXx"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5KvDERm5gBQTczeduWldps"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5KvDERm5gBQTczeduWldps",
+    "id": "5KvDERm5gBQTczeduWldps",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/b950357cfde01c18e53ba23405722b851b1ee126",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/12",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjksZmE0MWFlNDRjN2Q0NTRmYTg0YTk3ODJlNmY3N2M0NWZjZGE2NzRhYg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5KvDERm5gBQTczeduWldps/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5KvDERm5gBQTczeduWldps"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1yAzXZPdG59FstiBI3yKKb"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1yAzXZPdG59FstiBI3yKKb",
+    "id": "1yAzXZPdG59FstiBI3yKKb",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/d0606ffd7e869a2f37ad2ecfd0e047c3e6c85cff",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/11",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjksZjA4NGRiNmVkMzkwNDIzYmIxZDgwMmE3YTc1MGFkOGY0NmUwZDcyNg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1yAzXZPdG59FstiBI3yKKb/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1yAzXZPdG59FstiBI3yKKb"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2vSJFr5ro57SoxWD4kuWmC"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2vSJFr5ro57SoxWD4kuWmC",
+    "id": "2vSJFr5ro57SoxWD4kuWmC",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/81811a7805fb24b6c8642066fd7a5effe3bd154d",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/10",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjYsNmJkODQ5MGNmMWI3MzdlMDNiYmVmZTk0NzExMDQ0OGQzNTQxMWM5ZA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2vSJFr5ro57SoxWD4kuWmC/tracks",
+      "total": 14
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2vSJFr5ro57SoxWD4kuWmC"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5hKod00sKW5vsgOZCPOgn0"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5hKod00sKW5vsgOZCPOgn0",
+    "id": "5hKod00sKW5vsgOZCPOgn0",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/9c295d6ce12ce14440b25a2aeca311c261dff01a",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/09",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjcsYWE0Y2Q4MGUxNWVhOTFiNGMxNTI0MWU3MGQ1MmYwMTkxMWJmMzQwMA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5hKod00sKW5vsgOZCPOgn0/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5hKod00sKW5vsgOZCPOgn0"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0ghi2qPF54e5ouLK8IF8wp"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0ghi2qPF54e5ouLK8IF8wp",
+    "id": "0ghi2qPF54e5ouLK8IF8wp",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/d36b0a0363ae6eecffa82807aad9340ca4252485",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/08",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzYsYjBiNDFhMjdhOThhMWM3N2I1N2Q3MmU2MjdkY2E2NDgzY2RkYmYzOA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0ghi2qPF54e5ouLK8IF8wp/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0ghi2qPF54e5ouLK8IF8wp"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3Kf3fN5lkIirj1wafS1onX"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3Kf3fN5lkIirj1wafS1onX",
+    "id": "3Kf3fN5lkIirj1wafS1onX",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/07",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjcsNWM3ZDliODRmN2EyMDM1Y2Q3MTdiMTc2N2Q3YTI3NDM5ZWE4OGJiYg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3Kf3fN5lkIirj1wafS1onX/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3Kf3fN5lkIirj1wafS1onX"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4M2Mcdw54ipJhXzBil7WYa"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4M2Mcdw54ipJhXzBil7WYa",
+    "id": "4M2Mcdw54ipJhXzBil7WYa",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/06",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTMsZTIxZWI3N2Y4N2QyMTA3OGZiZTFkNWRiNGE1MjcyMDA4ZWI3ZDIxMA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4M2Mcdw54ipJhXzBil7WYa/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4M2Mcdw54ipJhXzBil7WYa"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6jPZEOJyDIjkbnNvRulGle"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6jPZEOJyDIjkbnNvRulGle",
+    "id": "6jPZEOJyDIjkbnNvRulGle",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/05",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NDUsZjE4YjA4ZjQ1M2E0NzMyNTU4NmI3MmVmMzljODY3NWQ5OWY1MTJkZQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6jPZEOJyDIjkbnNvRulGle/tracks",
+      "total": 14
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6jPZEOJyDIjkbnNvRulGle"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/48crjb937VKqCCfOgDnDVo"
+    },
+    "href": "https://api.spotify.com/v1/playlists/48crjb937VKqCCfOgDnDVo",
+    "id": "48crjb937VKqCCfOgDnDVo",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/04",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjAsYWVlNmY3ZTE5ZGE5NTYwYzdhOGZlYWQ3NTczNGI2M2UwNzgwZDY4ZA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/48crjb937VKqCCfOgDnDVo/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:48crjb937VKqCCfOgDnDVo"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3JjGjXV5diuA0eH8EWSjNw"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3JjGjXV5diuA0eH8EWSjNw",
+    "id": "3JjGjXV5diuA0eH8EWSjNw",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/03",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTYsMWU3MmM2ZDE2ZmIxMTVmOWJhZjc2ODY2NDEzMTg1MWQ3MWVjOWM2MA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3JjGjXV5diuA0eH8EWSjNw/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3JjGjXV5diuA0eH8EWSjNw"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1Dop77TukIT8SlzZw9IKM0"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1Dop77TukIT8SlzZw9IKM0",
+    "id": "1Dop77TukIT8SlzZw9IKM0",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/02",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjIsYjc1OTA0MDE0MzQ5MGJjMTQyNWU5NmM4MTg4ZTU0Y2E3NzIzZGZhYw==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1Dop77TukIT8SlzZw9IKM0/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1Dop77TukIT8SlzZw9IKM0"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1ZTdWCZzxvGybgggbIpdI7"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1ZTdWCZzxvGybgggbIpdI7",
+    "id": "1ZTdWCZzxvGybgggbIpdI7",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 17/01",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTYsZDU3ZjI3OGIxNzI1Mzk3M2Y0YTJlODg0MzhmMGFiZmJhZDQxY2I2Mg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1ZTdWCZzxvGybgggbIpdI7/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1ZTdWCZzxvGybgggbIpdI7"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6JiSkNe4whbNek0PlRbf3X"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6JiSkNe4whbNek0PlRbf3X",
+    "id": "6JiSkNe4whbNek0PlRbf3X",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape Best of 2016",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "OCxlNzA3NjVjZjJlM2YyNThiOWJlNjAyZDllNjFmOTRkYzU4YmE1MWY4",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6JiSkNe4whbNek0PlRbf3X/tracks",
+      "total": 98
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6JiSkNe4whbNek0PlRbf3X"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7yUYSjRbuY2CnljhaNpjcV"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7yUYSjRbuY2CnljhaNpjcV",
+    "id": "7yUYSjRbuY2CnljhaNpjcV",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 16/53",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjAsNTZkN2EzOTczMmM3ZTY0ZjNjN2NiNjU1MzIyMmQ1ZjI2ZDI2NGY1NQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7yUYSjRbuY2CnljhaNpjcV/tracks",
+      "total": 11
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7yUYSjRbuY2CnljhaNpjcV"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5b6g2XBVEoLjp1ESYMhj4Y"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5b6g2XBVEoLjp1ESYMhj4Y",
+    "id": "5b6g2XBVEoLjp1ESYMhj4Y",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 16/52",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTgsMDI0MmI1NjA2NDViYTFiZTlmZDA0ZjEwODliMzUwYTdhZWZkN2JmZA==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5b6g2XBVEoLjp1ESYMhj4Y/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5b6g2XBVEoLjp1ESYMhj4Y"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6RVXbQqcYSc5HECl00sqMz"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6RVXbQqcYSc5HECl00sqMz",
+    "id": "6RVXbQqcYSc5HECl00sqMz",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 16/51",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MjAsYmU1MzU5NGNjYTBjYzYzZWQ0MGU2ZWVmYmUwODE5N2UzOThkZWIzYw==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6RVXbQqcYSc5HECl00sqMz/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6RVXbQqcYSc5HECl00sqMz"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3cT1tJDCLfn8jgYUzEZHVC"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3cT1tJDCLfn8jgYUzEZHVC",
+    "id": "3cT1tJDCLfn8jgYUzEZHVC",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 16/50",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MTksMTQzZTM1ZjE4YWNlM2E1YTc4ZDhhNDA4NjllOGVmMjI5NzgzY2UwMg==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3cT1tJDCLfn8jgYUzEZHVC/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3cT1tJDCLfn8jgYUzEZHVC"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3epDSfAryEPS3Ol0D0Spne"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3epDSfAryEPS3Ol0D0Spne",
+    "id": "3epDSfAryEPS3Ol0D0Spne",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 16/49",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MzcsYTA2MzhmMGI4OGMyYjY4ZTE3YTY3Zjg1Zjc0Njg2NDhkZDExOTQ2Mw==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3epDSfAryEPS3Ol0D0Spne/tracks",
+      "total": 12
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3epDSfAryEPS3Ol0D0Spne"
+  },
+  {
+    "collaborative": false,
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3pYzJmPboHyPPSXcztvDU4"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3pYzJmPboHyPPSXcztvDU4",
+    "id": "3pYzJmPboHyPPSXcztvDU4",
+    "images": [
+      {
+        "height": null,
+        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "width": null
+      }
+    ],
+    "name": "Squad Tape 16/48",
+    "owner": {
+      "display_name": "Aaron McFly",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/ayruun"
+      },
+      "href": "https://api.spotify.com/v1/users/ayruun",
+      "id": "ayruun",
+      "type": "user",
+      "uri": "spotify:user:ayruun"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "NTksMTQyNDUyM2JiZGJmNTAxNGE5MGM5ZTNjNjQ0ZWQ3MDgyNDdhY2RhNQ==",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3pYzJmPboHyPPSXcztvDU4/tracks",
+      "total": 15
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3pYzJmPboHyPPSXcztvDU4"
+  }
+]
