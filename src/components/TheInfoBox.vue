@@ -31,16 +31,5 @@ export default {
 </script>
 
 <style>
-.info {
-  grid-row: 2 / 3;
-  margin: 20px 0;
-}
 
-.info h1 {
-    margin: 0 0 10px 0;
-}
-
-.info p {
-    margin: 10px 0 0 0;
-}
 </style>
