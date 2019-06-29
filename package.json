@@ -34,7 +34,15 @@
     ],
     "rules": {
       "vue/max-attributes-per-line": "off",
-      "no-console": "off"
+      "vue/multiline-html-element-content-newline": "off",
+      "vue/html-self-closing": [
+        "error",
+        {
+          "html": {
+            "void": "always"
+          }
+        }
+      ]
     },
     "parserOptions": {
       "parser": "babel-eslint"
