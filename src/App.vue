@@ -1,13 +1,15 @@
 <template>
   <div class="container">
-    <router-view />
+    <transition name="fade">
+      <router-view />
+    </transition>
   </div>
 </template>
 
 <script>
 export default {
   name: "App"
-}
+};
 </script>
 
 <style>
@@ -22,8 +24,21 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
   display: grid;
   grid-template-rows: auto auto auto;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 10px 0 0 0;
 }
 </style>

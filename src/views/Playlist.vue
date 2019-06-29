@@ -8,20 +8,48 @@
       :duration="totalLength"
     />
 
-    <Grid v-if="playlist" :tracks="playlist.tracks.items" :ms-to-time="msToTime" />
+    <audio
+      ref="audio"
+      :src="activeTrack"
+    />
+
+    <Grid v-if="playlist">
+      <GridTile
+        v-for="{ track } in playlist.tracks.items"
+        :key="track.id"
+      >
+        <img
+          :src="track.album.images[1].url"
+          alt="image of cover"
+          @click="togglePlay(track.preview_url)"
+        />
+
+        <div class="track-info">
+          <p>Artist: {{ track.artists[0].name }}</p>
+          <p>Track: {{ track.name }}</p>
+          <p>Duration: {{ msToTime(track.duration_ms) }}</p>
+          <button
+            class="controls"
+            @click="togglePlay(track.preview_url)"
+          >{{ activeTrack === track.preview_url ? "PAUSE" : "PLAY" }}</button>
+        </div>
+      </GridTile>
+    </Grid>
   </div>
 </template>
 
 <script>
 import TheInfoBox from "../components/TheInfoBox";
 import Grid from "../components/Grid";
+import GridTile from "../components/GridTile.vue";
 import playlists from "../data/playlistData.json";
 
 export default {
   name: "App",
   components: {
     TheInfoBox,
-    Grid
+    Grid,
+    GridTile
   },
   props: {
     playlistId: {
@@ -32,6 +60,7 @@ export default {
   data() {
     return {
       playlist: null,
+      activeTrack: ""
     };
   },
   computed: {
@@ -58,10 +87,51 @@ export default {
       seconds = seconds < 10 ? "0" + seconds : seconds;
 
       return `${minutes}:${seconds} min`;
+    },
+    togglePlay(previewUrl) {
+      if (this.activeTrack == previewUrl) {
+        if (this.$refs.audio.paused) {
+          this.$refs.audio.play();
+        } else {
+          this.$refs.audio.pause();
+          this.activeTrack = null;
+        }
+      } else {
+        this.activeTrack = previewUrl;
+        this.$nextTick(() => {
+          this.$refs.audio.play();
+        });
+      }
     }
   }
 };
 </script>
 
 <style>
+.controls {
+  margin-top: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.controls:focus {
+  outline: 0;
+}
+
+.controls:hover {
+  background-color: rgb(192, 255, 192);
+}
+
+.track-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(46, 46, 46);
+  opacity: 0;
+}
 </style>

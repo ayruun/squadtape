@@ -1,43 +1,13 @@
 <template>
   <div class="cover-section">
     <div class="cover-grid">
-      <GridTile
-        v-for="track in tracks"
-        :key="track.track.id"
-        :track="track.track"
-        :ms-to-time="msToTime"
-        @playing="pauseAll"
-      />
+      <slot />
     </div>
   </div>
 </template>
 
 <script>
-import GridTile from "./GridTile.vue";
-
 export default {
-  components: {
-    GridTile
-  },
-  props: {
-    tracks: {
-      type: Array,
-      required: true
-    },
-    msToTime: {
-      type: Function,
-      required: true
-    }
-  },
-  methods: {
-    pauseAll(trackId) {
-      this.$children.forEach(element => {
-        if (element.track.id !== trackId) {
-          element.pauseTrack();
-        }
-      });
-    }
-  }
 };
 </script>
 
