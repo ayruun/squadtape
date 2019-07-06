@@ -1,35 +1,20 @@
-# spotify-visualizer
+# squadtape.com
+PLaylist Visualizer for Squad Tape Series.
 
 ## How to get PlaylistData
-```
-The script can be run with
+To load the static playlist data to local file run:
+```bash
 node src/data/getPlaylistData.js
 ```
 
-## Project setup
-```
+## Local Development
+Clone the repository and run:
+```bash
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+## Production Builds
+```bash
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
