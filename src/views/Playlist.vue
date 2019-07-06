@@ -6,6 +6,7 @@
       :description="playlist.description"
       :total="playlist.tracks.total"
       :duration="totalLength"
+      :id="playlistId"
     />
 
     <audio
