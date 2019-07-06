@@ -28,10 +28,15 @@
           <p>Artist: {{ track.artists[0].name }}</p>
           <p>Track: {{ track.name }}</p>
           <p>Duration: {{ msToTime(track.duration_ms) }}</p>
+
           <button
             class="controls"
             @click="togglePlay(track.preview_url)"
-          >{{ activeTrack === track.preview_url ? "PAUSE" : "PLAY" }}</button>
+          >
+            <IconPlay v-if="activeTrack !== track.preview_url" />
+            <IconPause v-else />
+          </button>
+
         </div>
       </GridTile>
     </Grid>
@@ -43,13 +48,17 @@ import TheInfoBox from "../components/TheInfoBox";
 import Grid from "../components/Grid";
 import GridTile from "../components/GridTile.vue";
 import playlists from "../data/playlistData.json";
+import IconPlay from "../components/icons/IconPlay";
+import IconPause from "../components/icons/IconPause";
 
 export default {
   name: "App",
   components: {
     TheInfoBox,
     Grid,
-    GridTile
+    GridTile,
+    IconPlay,
+    IconPause
   },
   props: {
     playlistId: {
@@ -113,8 +122,9 @@ export default {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  border: none;
   line-height: 50px;
-  background-color: white;
+  background-color: rgba(172, 130, 130, 0);
   cursor: pointer;
 }
 
