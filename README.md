@@ -1,5 +1,5 @@
 # squadtape.com
-PLaylist Visualizer for Squad Tape Series.
+Playlist visualizer for Squad Tape series.
 
 ## How to get PlaylistData
 To load the static playlist data to local file run:
