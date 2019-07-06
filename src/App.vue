@@ -35,7 +35,7 @@ export default {
 }
 
 h1 {
-    margin: 0 0 10px 0;
+    margin: 0;
 }
 
 p {
