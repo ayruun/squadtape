@@ -1,7 +1,14 @@
 <template>
   <div class="home">
     <div class="info">
-      <h1>Squad Tape</h1>
+      <div
+        class="spotify-btn"
+        @mouseenter="iconColor = '#1DB954'"
+        @mouseleave="iconColor = '#2c3e50'"
+      >
+        <h1>Squad Tape</h1>
+        <IconSpotify :color="iconColor" href="spotify:user:ayruun"/>
+      </div>
       <p>Welcome to the best place to find new music.</p>
       <p>Just select a playlist and enjoy.</p>
     </div>
@@ -15,9 +22,7 @@
           alt="image of cover"
           @click="$router.push('/' + playlist.id)"
         />
-        <div class="track-info"> 
-          {{ playlist.name }}
-        </div>
+        <div class="track-info">{{ playlist.name }}</div>
       </GridTile>
     </Grid>
   </div>
@@ -26,17 +31,20 @@
 <script>
 import Grid from "../components/Grid";
 import GridTile from "../components/GridTile.vue";
+import IconSpotify from "../components/icons/IconSpotify.vue";
 import playlists from "../data/playlistData.json";
 
 export default {
   name: "Home",
   components: {
     Grid,
-    GridTile
+    GridTile,
+    IconSpotify
   },
   data() {
     return {
-      playlists
+      playlists,
+      iconColor: "2c3e50"
     };
   }
 };
@@ -50,6 +58,11 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.spotify-btn {
+  display: inline-flex;
+  align-items: center;  
 }
 
 .playlist-btn {
