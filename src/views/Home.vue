@@ -3,8 +3,8 @@
     <div class="info">
       <div
         class="spotify-btn"
-        @mouseenter="iconColor = 'var(--spotify-green)'"
-        @mouseleave="iconColor = 'var(--dark-blue)'"
+        @mouseenter="iconColor = 'var(--secondary)'"
+        @mouseleave="iconColor = 'var(--primary)'"
       >
         <h1>Squad Tape</h1>
         <IconSpotify :color="iconColor" href="spotify:user:ayruun"/>
@@ -52,7 +52,6 @@ export default {
 
 <style>
 .home {
-  background: rgb(255, 255, 255);
   height: auto;
   display: flex;
   flex-direction: column;

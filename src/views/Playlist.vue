@@ -33,8 +33,8 @@
           <button
             class="controls"
             @click="togglePlay(track.preview_url)"
-            @mouseenter="color = 'var(--spotify-green)'"
-            @mouseleave="color = 'var(--dark-blue)'"
+            @mouseenter="color = 'var(--secondary)'"
+            @mouseleave="color = 'var(--primary)'"
           >
             <IconPlay
               v-if="activeTrack !== track.preview_url"
@@ -75,7 +75,7 @@ export default {
     return {
       playlist: null,
       activeTrack: "",
-      color: "var(--dark-blue)"
+      color: "var(--primary)"
     };
   },
   computed: {
@@ -130,7 +130,7 @@ export default {
   border-radius: 50%;
   border: none;
   line-height: 50px;
-  background-color: rgba(172, 130, 130, 0);
+  background-color: var(--transparent);
   cursor: pointer;
 }
 
@@ -143,7 +143,7 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(46, 46, 46);
+  color: var(--primary);
   opacity: 0;
 }
 </style>

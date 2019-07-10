@@ -2,8 +2,8 @@
   <div class="info">
     <div
       class="spotify-btn"
-      @mouseenter="iconColor = 'var(--spotify-green)'"
-      @mouseleave="iconColor = 'var(--dark-blue)'"
+      @mouseenter="iconColor = 'var(--secondary)'"
+      @mouseleave="iconColor = 'var(--primary)'"
     >
       <h1>{{ name }}</h1>
 
@@ -49,7 +49,7 @@ export default {
   },
   data() {
     return {
-      iconColor: "var(--dark-blue)"
+      iconColor: "var(--primary)"
     }
   },
   computed: {

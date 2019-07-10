@@ -19,8 +19,9 @@ export default {
 }
 
 :root {
-  --dark-blue: #2c3e50;
-  --spotify-green: #1DB954;
+  --primary: #2c3e50;
+  --secondary: #1DB954;
+  --transparent: rgba(255, 255, 255, 0);
 }
 
 .container {
