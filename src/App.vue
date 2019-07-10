@@ -18,6 +18,11 @@ export default {
   padding: 0;
 }
 
+:root {
+  --dark-blue: #2c3e50;
+  --spotify-green: #1DB954;
+}
+
 .container {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

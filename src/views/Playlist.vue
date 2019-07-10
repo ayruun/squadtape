@@ -33,11 +33,15 @@
           <button
             class="controls"
             @click="togglePlay(track.preview_url)"
+            @mouseenter="color = 'var(--spotify-green)'"
+            @mouseleave="color = 'var(--dark-blue)'"
           >
-            <IconPlay v-if="activeTrack !== track.preview_url" />
-            <IconPause v-else />
+            <IconPlay
+              v-if="activeTrack !== track.preview_url"
+              :color="color"
+            />
+            <IconPause v-else :color="color" />
           </button>
-
         </div>
       </GridTile>
     </Grid>
@@ -70,7 +74,8 @@ export default {
   data() {
     return {
       playlist: null,
-      activeTrack: ""
+      activeTrack: "",
+      color: "var(--dark-blue)"
     };
   },
   computed: {
@@ -131,10 +136,6 @@ export default {
 
 .controls:focus {
   outline: 0;
-}
-
-.controls:hover {
-  background-color: rgb(192, 255, 192);
 }
 
 .track-info {

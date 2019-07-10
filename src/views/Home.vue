@@ -3,8 +3,8 @@
     <div class="info">
       <div
         class="spotify-btn"
-        @mouseenter="iconColor = '#1DB954'"
-        @mouseleave="iconColor = '#2c3e50'"
+        @mouseenter="iconColor = 'var(--spotify-green)'"
+        @mouseleave="iconColor = 'var(--dark-blue)'"
       >
         <h1>Squad Tape</h1>
         <IconSpotify :color="iconColor" href="spotify:user:ayruun"/>
