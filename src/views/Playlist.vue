@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="playlist-view">
     <TheInfoBox
       v-if="playlist"
       :name="playlist.name"
@@ -45,6 +45,8 @@
         </div>
       </GridTile>
     </Grid>
+
+    <TheFooter />
   </div>
 </template>
 
@@ -52,6 +54,7 @@
 import TheInfoBox from "../components/TheInfoBox";
 import Grid from "../components/Grid";
 import GridTile from "../components/GridTile.vue";
+import TheFooter from "../components/TheFooter.vue";
 import playlists from "../data/playlistData.json";
 import IconPlay from "../components/icons/IconPlay";
 import IconPause from "../components/icons/IconPause";
@@ -62,6 +65,7 @@ export default {
     TheInfoBox,
     Grid,
     GridTile,
+    TheFooter,
     IconPlay,
     IconPause
   },
@@ -123,7 +127,7 @@ export default {
 </script>
 
 <style>
-.container {
+.playlist-view {
   display: flex;
   flex-direction: column;
   justify-content: center;

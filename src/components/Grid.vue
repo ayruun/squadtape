@@ -13,7 +13,7 @@ export default {};
 <style>
 .cover-section {
   grid-row: 3 / 4;
-  margin: 10px 25px 25px 25px;
+  margin: 10px 25px 5px 25px;
 }
 
 .cover-grid {
