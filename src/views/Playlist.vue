@@ -123,6 +123,13 @@ export default {
 </script>
 
 <style>
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .controls {
   margin-top: 5px;
   height: 50px;

@@ -62,6 +62,18 @@ export default {
   align-items: center;
 }
 
+.info {
+  background: url("https://www.aarigato.de/assets/images/background.png");
+  background-position: center -200px;
+  width: 1230px;
+  height: 150px;
+  margin: 25px 25px 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .spotify-btn {
   display: inline-flex;
   align-items: center;  
@@ -69,5 +81,17 @@ export default {
 
 .playlist-btn {
   margin: 5px 0;
+}
+
+@media (max-width: 850px) {
+  .info {
+    width: 920px;
+  }
+}
+
+@media (max-width: 600px) {
+  .info {
+    width: 610px;
+  }
 }
 </style>
