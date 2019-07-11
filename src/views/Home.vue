@@ -22,7 +22,10 @@
           alt="image of cover"
           @click="$router.push('/' + playlist.id)"
         />
-        <div class="track-info">{{ playlist.name }}</div>
+        <div
+          class="track-info" 
+          @click="$router.push('/' + playlist.id)"
+        >{{ playlist.name }}</div>
       </GridTile>
     </Grid>
   </div>
@@ -44,7 +47,7 @@ export default {
   data() {
     return {
       playlists,
-      iconColor: "2c3e50"
+      iconColor: "var(--primary)"
     };
   }
 };
