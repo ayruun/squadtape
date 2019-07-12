@@ -7,7 +7,7 @@
         @mouseleave="iconColor = 'var(--primary)'"
       >
         <h1>Squad Tape</h1>
-        <IconSpotify :color="iconColor" href="spotify:user:ayruun"/>
+        <IconSpotify :color="iconColor" href="spotify:user:ayruun" />
       </div>
       <p>Welcome to the best place to find new music.</p>
       <p>Just select a playlist and enjoy.</p>

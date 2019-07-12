@@ -2,11 +2,11 @@
   <div class="playlist-view">
     <TheInfoBox
       v-if="playlist"
+      :id="playlistId"
       :name="playlist.name"
       :description="playlist.description"
       :total="playlist.tracks.total"
       :duration="totalLength"
-      :id="playlistId"
     />
 
     <audio

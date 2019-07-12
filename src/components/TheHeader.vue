@@ -9,7 +9,7 @@
       :disabled="!loggedIn"
       :value="value"
       @input="$emit('input', $event.target.value)"
-    >
+    />
     <button class="fetch-btn" :disabled="!loggedIn" @click="$emit('fetchPlaylist')">
       FETCH
     </button>
