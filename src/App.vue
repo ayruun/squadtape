@@ -22,6 +22,7 @@ export default {
   --primary: #2c3e50;
   --hover: #4676a7;
   --secondary: #1DB954;
+  --beige: rgba(214, 178, 150, 0.562);
   --transparent: rgba(255, 255, 255, 0);
 }
 
