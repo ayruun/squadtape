@@ -13,6 +13,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -27,9 +29,7 @@ export default {
 }
 
 .container {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
   text-align: center;
   color: var(--primary);
   display: grid;
