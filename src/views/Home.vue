@@ -59,6 +59,8 @@ export default {
 </script>
 
 <style>
+/* .info class is styled in TheInfoBox */
+
 .home {
   height: auto;
   display: flex;
