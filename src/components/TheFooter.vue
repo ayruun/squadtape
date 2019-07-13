@@ -1,17 +1,17 @@
 <template>
   <div class="the-footer">
     <div class="copyright"> 
-      <a href="#">&copy; SquadTape</a>
+      <router-link to="/">&copy; SquadTape</router-link>
     </div>
     <div class="links">
       <div class="link">
-        <a href="#">Impressum</a>
+        <router-link to="/impressum">Impressum</router-link>
       </div>
       <div class="link">
-        <a href="#">Link</a>
+        <a href="https://github.com/ayruun/squadtape" target="_blank">GitHub</a>
       </div>
       <div class="link">
-        <a href="#">Link</a>
+        <a href="https://www.aarigato.com" target="_blank">Aarigato</a>
       </div>
     </div>
   </div>
