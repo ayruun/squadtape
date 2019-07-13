@@ -30,6 +30,7 @@ export default {
 
 .container {
   font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
   text-align: center;
   color: var(--primary);
   display: grid;
