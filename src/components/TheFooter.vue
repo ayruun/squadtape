@@ -1,11 +1,15 @@
 <template>
   <div class="the-footer">
     <div class="copyright"> 
-      <router-link to="/">&copy; SquadTape</router-link>
+      <router-link to="/">
+        &copy; SquadTape
+      </router-link>
     </div>
     <div class="links">
       <div class="link">
-        <router-link to="/impressum">Impressum</router-link>
+        <router-link to="/impressum">
+          Impressum
+        </router-link>
       </div>
       <div class="link">
         <a href="https://github.com/ayruun/squadtape" target="_blank">GitHub</a>

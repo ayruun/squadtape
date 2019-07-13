@@ -5,7 +5,9 @@
     </div>
 
     <div class="impr-content">
-      <p id="content-start">Angaben gemäß § 5 TMG</p>
+      <p id="content-start">
+        Angaben gemäß § 5 TMG
+      </p>
       <br />
       <p>Aaron Behrendsen</p>
       <p>Susannenstraße 6</p>
