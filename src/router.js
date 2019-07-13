@@ -8,12 +8,21 @@ import Impressum from './views/Impressum.vue';
 Vue.use(VueRouter);
 
 const routes = [
-    { path: '/', component: Home},
+    { path: '/', component: Home },
     { path: '/impressum', component: Impressum },
     { path: '/:playlistId', component: Playlist, props: true }
 ];
 
 export default new VueRouter({
     mode: 'history',
-    routes
+    routes,
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+            return savedPosition;
+        }
+        if (to.hash) {
+            return { selector: to.hash };
+        }
+        return { x: 0, y: 0 };
+    }
 })
