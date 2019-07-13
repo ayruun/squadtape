@@ -42,6 +42,10 @@ export default {
 <style>
 .icon-spotify {
   margin: 0 5px;
+  margin-top: 3px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
