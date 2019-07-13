@@ -6,7 +6,7 @@
         @mouseenter="iconColor = 'var(--secondary)'"
         @mouseleave="iconColor = 'var(--primary)'"
       >
-        <h1>Squad Tape</h1>
+        <h1>SQUAD TAPE</h1>
         <IconSpotify :color="iconColor" href="spotify:user:ayruun" />
       </div>
       <p>Welcome to the best place to find new music.</p>
@@ -69,7 +69,13 @@ export default {
 
 .spotify-btn {
   display: inline-flex;
-  align-items: center;  
+  align-items: center;
+  justify-content: center;  
+}
+
+.spotify-btn h1 {
+  justify-self: center;
+  align-self: center;
 }
 
 .playlist-btn {
