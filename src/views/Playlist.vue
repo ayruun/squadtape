@@ -84,7 +84,7 @@ export default {
   data() {
     return {
       playlist: null,
-      activeTrack: "",
+      activeTrack: null,
       color: "var(--primary)"
     };
   },
