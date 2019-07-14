@@ -21,8 +21,8 @@
       >
         <img
           :src="track.album.images[1].url"
-          alt="image of cover"
-          @click="togglePlay(track.preview_url)"
+          :alt="track.album.name"
+          @click="track.preview_url && togglePlay(track.preview_url)"
         />
 
         <div class="track-info">
@@ -30,7 +30,7 @@
           <p>Track: {{ track.name }}</p>
           <p>Duration: {{ msToTime(track.duration_ms) }}</p>
 
-          <button
+          <button v-if="track.preview_url"
             class="controls"
             @click="togglePlay(track.preview_url)"
             @mouseenter="color = 'var(--secondary)'"
