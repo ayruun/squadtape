@@ -12,12 +12,14 @@
     <audio
       ref="audio"
       :src="activeTrack"
+      @ended="activeTrack = null"
     />
 
     <Grid v-if="playlist">
       <GridTile
         v-for="{ track } in playlist.tracks.items"
         :key="track.id"
+        :clickable="!!track.preview_url"
       >
         <img
           :src="track.album.images[1].url"
@@ -30,7 +32,8 @@
           <p>Track: {{ track.name }}</p>
           <p>Duration: {{ msToTime(track.duration_ms) }}</p>
 
-          <button v-if="track.preview_url"
+          <button
+            v-if="track.preview_url"
             class="controls"
             @click="togglePlay(track.preview_url)"
             @mouseenter="color = 'var(--secondary)'"
@@ -40,7 +43,10 @@
               v-if="activeTrack !== track.preview_url"
               :color="color"
             />
-            <IconPause v-else :color="color" />
+            <IconPause
+              v-else
+              :color="color"
+            />
           </button>
         </div>
       </GridTile>

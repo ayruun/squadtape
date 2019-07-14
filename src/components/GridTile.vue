@@ -1,16 +1,26 @@
 <template>
-  <div class="tile">
+  <div class="tile" :class="{ clickable }">
     <slot />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    clickable: {
+      type: Boolean,
+      default: true
+    }
+  }
+};
 </script>
 
 <style>
 .tile {
   position: relative;
+}
+
+.clickable {
   cursor: pointer;
 }
 
@@ -22,7 +32,6 @@ export default {};
 .tile:hover img {
   opacity: 0.3;
 }
-
 
 .tile:hover .track-info {
   opacity: 1;
