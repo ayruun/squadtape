@@ -28,9 +28,9 @@
         />
 
         <div class="track-info">
-          <p>Artist: {{ track.artists[0].name }}</p>
-          <p>Track: {{ track.name }}</p>
-          <p>Duration: {{ msToTime(track.duration_ms) }}</p>
+          <p>{{ track.artists[0].name }}</p>
+          <p>{{ track.name }}</p>
+          <p>{{ msToTime(track.duration_ms) }}</p>
 
           <button
             v-if="track.preview_url"
