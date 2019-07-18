@@ -5,7 +5,7 @@
       viewBox="0 0 24 24"
     >
       <path
-        fill="#000000"
+        :fill="color"
         d="M10,16.5V7.5L16,12M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
       />
     </svg>
@@ -14,7 +14,13 @@
 
 <script>
 export default {
-    name: "IconPlay"
+    name: "IconPlay",
+    props: {
+      color: {
+        type: String,
+        required: true
+      }
+    }
 };
 </script>
 

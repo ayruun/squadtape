@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <div class="info">
-      <div
-        class="spotify-btn"
-        @mouseenter="iconColor = '#1DB954'"
-        @mouseleave="iconColor = '#2c3e50'"
-      >
-        <h1>Squad Tape</h1>
-        <IconSpotify :color="iconColor" href="spotify:user:ayruun"/>
-      </div>
-      <p>Welcome to the best place to find new music.</p>
-      <p>Just select a playlist and enjoy.</p>
-    </div>
     <Grid>
+      
+      <div class="info">
+        <div
+          class="spotify-btn"
+          @mouseenter="iconColor = 'var(--secondary)'"
+          @mouseleave="iconColor = 'var(--primary)'"
+        >
+          <h1>SQUAD TAPE</h1>
+          <IconSpotify
+            :color="iconColor"
+            href="spotify:user:ayruun"
+          />
+        </div>
+        <p>Welcome to the best place to find new music.</p>
+        <p>Just select a playlist and enjoy.</p>
+      </div>
+
       <GridTile
         v-for="playlist in playlists"
         :key="playlist.id"
@@ -22,8 +27,14 @@
           alt="image of cover"
           @click="$router.push('/' + playlist.id)"
         />
-        <div class="track-info">{{ playlist.name }}</div>
+        <div
+          class="track-info"
+          @click="$router.push('/' + playlist.id)"
+        >{{ playlist.name }}</div>
       </GridTile>
+
+      <TheFooter />
+
     </Grid>
   </div>
 </template>
@@ -31,6 +42,7 @@
 <script>
 import Grid from "../components/Grid";
 import GridTile from "../components/GridTile.vue";
+import TheFooter from "../components/TheFooter.vue";
 import IconSpotify from "../components/icons/IconSpotify.vue";
 import playlists from "../data/playlistData.json";
 
@@ -39,20 +51,23 @@ export default {
   components: {
     Grid,
     GridTile,
+    TheFooter,
     IconSpotify
   },
   data() {
     return {
       playlists,
-      iconColor: "2c3e50"
+      iconColor: "var(--primary)"
     };
   }
 };
 </script>
 
 <style>
+/* .info class is styled in TheInfoBox */
+
 .home {
-  background: rgb(255, 255, 255);
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -62,7 +77,13 @@ export default {
 
 .spotify-btn {
   display: inline-flex;
-  align-items: center;  
+  align-items: center;
+  justify-content: center;
+}
+
+.spotify-btn h1 {
+  justify-self: center;
+  align-self: center;
 }
 
 .playlist-btn {

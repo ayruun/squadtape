@@ -1,46 +1,64 @@
 <template>
-  <div class="container">
-    <TheInfoBox
-      v-if="playlist"
-      :name="playlist.name"
-      :description="playlist.description"
-      :total="playlist.tracks.total"
-      :duration="totalLength"
-      :id="playlistId"
-    />
+  <div class="playlist-view">
+    
 
     <audio
       ref="audio"
       :src="activeTrack"
+      @ended="activeTrack = null"
     />
 
     <Grid v-if="playlist">
+
+      <TheInfoBox
+        v-if="playlist"
+        :id="playlistId"
+        :name="playlist.name"
+        :description="playlist.description"
+        :total="playlist.tracks.total"
+        :duration="totalLength"
+      />
+
       <GridTile
         v-for="{ track } in playlist.tracks.items"
         :key="track.id"
+        :clickable="!!track.preview_url"
       >
         <img
           :src="track.album.images[1].url"
-          alt="image of cover"
-          @click="togglePlay(track.preview_url)"
+          :alt="track.album.name"
+          @click="track.preview_url && togglePlay(track.preview_url)"
         />
 
         <div class="track-info">
-          <p>Artist: {{ track.artists[0].name }}</p>
-          <p>Track: {{ track.name }}</p>
-          <p>Duration: {{ msToTime(track.duration_ms) }}</p>
+          <p>{{ track.artists[0].name }}</p>
+          <p>{{ track.name }}</p>
+          <p>{{ msToTime(track.duration_ms) }}</p>
 
           <button
+            v-if="track.preview_url"
             class="controls"
             @click="togglePlay(track.preview_url)"
+            @mouseenter="color = 'var(--secondary)'"
+            @mouseleave="color = 'var(--primary)'"
           >
-            <IconPlay v-if="activeTrack !== track.preview_url" />
-            <IconPause v-else />
+            <IconPlay
+              v-if="activeTrack !== track.preview_url"
+              :color="color"
+            />
+            <IconPause
+              v-else
+              :color="color"
+            />
           </button>
-
         </div>
       </GridTile>
+
+      <TheFooter />
+
     </Grid>
+
+  
   </div>
 </template>
 
@@ -48,6 +66,7 @@
 import TheInfoBox from "../components/TheInfoBox";
 import Grid from "../components/Grid";
 import GridTile from "../components/GridTile.vue";
+import TheFooter from "../components/TheFooter.vue";
 import playlists from "../data/playlistData.json";
 import IconPlay from "../components/icons/IconPlay";
 import IconPause from "../components/icons/IconPause";
@@ -58,6 +77,7 @@ export default {
     TheInfoBox,
     Grid,
     GridTile,
+    TheFooter,
     IconPlay,
     IconPause
   },
@@ -70,7 +90,8 @@ export default {
   data() {
     return {
       playlist: null,
-      activeTrack: ""
+      activeTrack: null,
+      color: "var(--primary)"
     };
   },
   computed: {
@@ -118,6 +139,13 @@ export default {
 </script>
 
 <style>
+.playlist-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .controls {
   margin-top: 5px;
   height: 50px;
@@ -125,7 +153,7 @@ export default {
   border-radius: 50%;
   border: none;
   line-height: 50px;
-  background-color: rgba(172, 130, 130, 0);
+  background-color: var(--transparent);
   cursor: pointer;
 }
 
@@ -133,16 +161,13 @@ export default {
   outline: 0;
 }
 
-.controls:hover {
-  background-color: rgb(192, 255, 192);
-}
-
 .track-info {
   position: absolute;
+  width: 90%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(46, 46, 46);
+  color: var(--primary);
   opacity: 0;
 }
 </style>

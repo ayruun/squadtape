@@ -2,8 +2,8 @@
   <div class="info">
     <div
       class="spotify-btn"
-      @mouseenter="iconColor = '#1DB954'"
-      @mouseleave="iconColor = '#2c3e50'"
+      @mouseenter="iconColor = 'var(--secondary)'"
+      @mouseleave="iconColor = 'var(--primary)'"
     >
       <h1>{{ name }}</h1>
 
@@ -14,7 +14,6 @@
     </div>
     <p>{{ description }}</p>
     <p>Tracks: {{ total }} Duration: {{ duration }}</p>
-    <!-- @TODO: add image playlist cover at the left -->
   </div>
 </template>
 
@@ -49,7 +48,7 @@ export default {
   },
   data() {
     return {
-      iconColor: "#2c3e50"
+      iconColor: "var(--primary)"
     }
   },
   computed: {
@@ -61,4 +60,15 @@ export default {
 </script>
 
 <style>
+.info {
+  background: url("https://www.aarigato.de/assets/images/background.png");
+  background-position: center -200px;
+  grid-column: 1 / -1;
+  height: 150px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 </style>

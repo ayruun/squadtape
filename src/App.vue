@@ -13,19 +13,30 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
+:root {
+  --primary: #2c3e50;
+  --hover: #4676a7;
+  --secondary: #1DB954;
+  --beige: rgba(214, 178, 150, 0.562);
+  --transparent: rgba(255, 255, 255, 0);
+}
+
 .container {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
   text-align: center;
-  color: #2c3e50;
-  display: grid;
-  grid-template-rows: auto auto auto;
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
@@ -41,4 +52,6 @@ h1 {
 p {
     margin: 10px 0 0 0;
 }
+
+
 </style>
