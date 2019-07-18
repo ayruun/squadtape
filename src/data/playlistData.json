@@ -7382,7 +7382,7 @@
                 },
                 "href": "https://api.spotify.com/v1/artists/46MWeeHNVMYRIIofQBEX98",
                 "id": "46MWeeHNVMYRIIofQBEX98",
-                "name": "Beam",
+                "name": "BEAM",
                 "type": "artist",
                 "uri": "spotify:artist:46MWeeHNVMYRIIofQBEX98"
               }
@@ -8260,7 +8260,7 @@
                 },
                 "href": "https://api.spotify.com/v1/artists/46MWeeHNVMYRIIofQBEX98",
                 "id": "46MWeeHNVMYRIIofQBEX98",
-                "name": "Beam",
+                "name": "BEAM",
                 "type": "artist",
                 "uri": "spotify:artist:46MWeeHNVMYRIIofQBEX98"
               }
@@ -9017,12 +9017,12 @@
     }
   },
   {
-    "description": "",
+    "description": "*for best experience* automatisch überblenden auf 4 Sekunden einstellen",
     "id": "3gdwbmaeMr5w2QpWgM1DUk",
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/7c2b7bc845445a35eb6fa027de5a1df4e4372d0b",
+        "url": "https://pl.scdn.co/images/pl/default/e15ac9a36f05544dd142f19e89470ea2f61e45a9",
         "width": null
       }
     ],
@@ -12086,7 +12086,7 @@
             "duration_ms": 217236,
             "id": "1SkeK7yhwSkCUkbAG9604j",
             "name": "Telefon",
-            "preview_url": "https://p.scdn.co/mp3-preview/8e3785352d5f01b48414f34e6abcadee70945936?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
+            "preview_url": null
           }
         },
         {
@@ -12428,7 +12428,7 @@
             "duration_ms": 299546,
             "id": "5Oc1NXYOsVSw5Y169meEJM",
             "name": "President",
-            "preview_url": "https://p.scdn.co/mp3-preview/08a11036cb68c1551bbc74f0f55e00152de290fc?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
+            "preview_url": null
           }
         },
         {
@@ -16086,7 +16086,7 @@
                 },
                 "href": "https://api.spotify.com/v1/artists/4T8NIfZmVY6TJFqVzN6X49",
                 "id": "4T8NIfZmVY6TJFqVzN6X49",
-                "name": "Tobi Lou",
+                "name": "tobi lou",
                 "type": "artist",
                 "uri": "spotify:artist:4T8NIfZmVY6TJFqVzN6X49"
               }
@@ -20568,7 +20568,7 @@
             "duration_ms": 217236,
             "id": "1SkeK7yhwSkCUkbAG9604j",
             "name": "Telefon",
-            "preview_url": "https://p.scdn.co/mp3-preview/8e3785352d5f01b48414f34e6abcadee70945936?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
+            "preview_url": null
           }
         },
         {
@@ -26477,17 +26477,17 @@
               "images": [
                 {
                   "height": 640,
-                  "url": "https://i.scdn.co/image/2700523efe4712e9b8bb0d36b67f24a1b3a9bf4c",
+                  "url": "https://i.scdn.co/image/ce83aba9669fcfaba043c3aec71e779069f348c0",
                   "width": 640
                 },
                 {
                   "height": 300,
-                  "url": "https://i.scdn.co/image/a798abd01a6fb863a679aec2ea4988fefaa7faf3",
+                  "url": "https://i.scdn.co/image/1b9994fec0db2b601a010f7972362eb63cc8fcf3",
                   "width": 300
                 },
                 {
                   "height": 64,
-                  "url": "https://i.scdn.co/image/080d5d00d3fb87c4a03f4850807526aa289b1c9c",
+                  "url": "https://i.scdn.co/image/dfb79a22e870d0910a0d05c5443ba11441ec9a75",
                   "width": 64
                 }
               ]
@@ -26505,18 +26505,18 @@
               },
               {
                 "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/0Lht3RuTflPu5d417m2elc"
+                  "spotify": "https://open.spotify.com/artist/4NwROimojGWJXXHH3nc6CU"
                 },
-                "href": "https://api.spotify.com/v1/artists/0Lht3RuTflPu5d417m2elc",
-                "id": "0Lht3RuTflPu5d417m2elc",
-                "name": "Mongo",
+                "href": "https://api.spotify.com/v1/artists/4NwROimojGWJXXHH3nc6CU",
+                "id": "4NwROimojGWJXXHH3nc6CU",
+                "name": "Global Mongo",
                 "type": "artist",
-                "uri": "spotify:artist:0Lht3RuTflPu5d417m2elc"
+                "uri": "spotify:artist:4NwROimojGWJXXHH3nc6CU"
               }
             ],
             "duration_ms": 163144,
             "id": "06WBQWkGJ59JMTrGUkkj2B",
-            "name": "Off White (feat. Mongo)",
+            "name": "Off White (feat. Global Mongo)",
             "preview_url": "https://p.scdn.co/mp3-preview/cb35b67fff5029438388d26dcbde2ca15c124d73?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
           }
         }
@@ -31176,7 +31176,7 @@
             "duration_ms": 299546,
             "id": "5Oc1NXYOsVSw5Y169meEJM",
             "name": "President",
-            "preview_url": "https://p.scdn.co/mp3-preview/08a11036cb68c1551bbc74f0f55e00152de290fc?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
+            "preview_url": null
           }
         },
         {
@@ -31554,7 +31554,7 @@
             "duration_ms": 252000,
             "id": "4EzjclhnnjOslcUb3203Al",
             "name": "Willkommen in Sin City",
-            "preview_url": "https://p.scdn.co/mp3-preview/a71c42935f166cb9932188da21d57c81d5e626ec?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
+            "preview_url": null
           }
         },
         {
@@ -36890,7 +36890,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/b09d17187ef88210533d3889ad506390c58332c7",
         "width": null
       }
     ],
@@ -37504,7 +37504,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/09c8a36c5cc43d8445e2ad226717dad2e85e72be",
         "width": null
       }
     ],
@@ -38109,7 +38109,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/c804fd6922bf9b36a8ce38b1b7f08823c85535f7",
         "width": null
       }
     ],
@@ -38772,7 +38772,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/a94518ee06e6201acac123170d7c018ff9cbb47f",
         "width": null
       }
     ],
@@ -39367,7 +39367,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/9cca50594ada771b17581872df9f5c20d0e5cf25",
         "width": null
       }
     ],
@@ -39882,7 +39882,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/dcb97d924ccc3b427a0b3e84899c414e10107ce5",
         "width": null
       }
     ],
@@ -40407,7 +40407,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/9b539a91737274ebe8d83fc55905a2718e01613c",
         "width": null
       }
     ],
@@ -40982,7 +40982,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/e15ac9a36f05544dd142f19e89470ea2f61e45a9",
         "width": null
       }
     ],
@@ -45301,7 +45301,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/544459e8187b5499f7411da7bcca9303f4415cda",
         "width": null
       }
     ],
@@ -45817,7 +45817,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/43a8a77d92fe5501f2067cb5e3c05354c269cc32",
         "width": null
       }
     ],
@@ -46382,7 +46382,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/5883b919c742a6a18e7b4241908e773197e938a8",
         "width": null
       }
     ],
@@ -46937,7 +46937,7 @@
     "images": [
       {
         "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
+        "url": "https://pl.scdn.co/images/pl/default/ec15a2a5a13eb0f4866964307e9c5bfabe611b0b",
         "width": null
       }
     ],
@@ -47444,1253 +47444,6 @@
         }
       ],
       "total": 12
-    }
-  },
-  {
-    "description": "*for best experience* automatisch überblenden auf 4 Sekunden einstellen",
-    "id": "3epDSfAryEPS3Ol0D0Spne",
-    "images": [
-      {
-        "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
-        "width": null
-      }
-    ],
-    "name": "Squad Tape 16/49",
-    "tracks": {
-      "items": [
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/e0e3ae1a41e39ce079c5f5fef1bdbbe6b16f6a51",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/c87ba6d96518f5e9f08e3240c91e417e85c4286f",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/ef58fd4161d12db7f275d8bcf5f3080740396360",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/2NJWI8byqTSqDaJRnqJY2z"
-                },
-                "href": "https://api.spotify.com/v1/artists/2NJWI8byqTSqDaJRnqJY2z",
-                "id": "2NJWI8byqTSqDaJRnqJY2z",
-                "name": "KALIM",
-                "type": "artist",
-                "uri": "spotify:artist:2NJWI8byqTSqDaJRnqJY2z"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/6QzzeKV0VcnT2vJMYDPuL4"
-                },
-                "href": "https://api.spotify.com/v1/artists/6QzzeKV0VcnT2vJMYDPuL4",
-                "id": "6QzzeKV0VcnT2vJMYDPuL4",
-                "name": "Trettmann",
-                "type": "artist",
-                "uri": "spotify:artist:6QzzeKV0VcnT2vJMYDPuL4"
-              }
-            ],
-            "duration_ms": 213973,
-            "id": "3QSTS7QL9wYSHiBTb2lp7h",
-            "name": "PlayList",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/3420a62d2730f8e1eec133f983fa220401f7d820",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/760ed84070e57a4c8f2c19e1d7b608509fb5e5ab",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/a81e285d94ebef2eadef21e4d9b26bbdde7dda0f",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/2tSv9mEQSuNVMGr9qjYfkr"
-                },
-                "href": "https://api.spotify.com/v1/artists/2tSv9mEQSuNVMGr9qjYfkr",
-                "id": "2tSv9mEQSuNVMGr9qjYfkr",
-                "name": "Mykki Blanco",
-                "type": "artist",
-                "uri": "spotify:artist:2tSv9mEQSuNVMGr9qjYfkr"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/4JqpJeNOhP6bAkolNMLwFg"
-                },
-                "href": "https://api.spotify.com/v1/artists/4JqpJeNOhP6bAkolNMLwFg",
-                "id": "4JqpJeNOhP6bAkolNMLwFg",
-                "name": "Jean Deaux",
-                "type": "artist",
-                "uri": "spotify:artist:4JqpJeNOhP6bAkolNMLwFg"
-              }
-            ],
-            "duration_ms": 206441,
-            "id": "6Agn2NBxm4oRnrz0vHX3Qg",
-            "name": "Loner",
-            "preview_url": "https://p.scdn.co/mp3-preview/1151d250e2a6697f3a4b212828e8a27f981cbe79?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/6b03e7a35bc4cbfe72c28bddd54124a5bd46acca",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/340bca6cb13d9acdd86b87ecc71f1c3c5dd0baed",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/f1b12be1adc8ef569d911b9508353c2e61e2fde3",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/5L67d6oZKOOmXcBcMMJdZZ"
-                },
-                "href": "https://api.spotify.com/v1/artists/5L67d6oZKOOmXcBcMMJdZZ",
-                "id": "5L67d6oZKOOmXcBcMMJdZZ",
-                "name": "Point Point",
-                "type": "artist",
-                "uri": "spotify:artist:5L67d6oZKOOmXcBcMMJdZZ"
-              }
-            ],
-            "duration_ms": 236826,
-            "id": "5OBX7Rctz74QUse0SZeyjN",
-            "name": "All This",
-            "preview_url": "https://p.scdn.co/mp3-preview/abc99f9c30cffad47dac893819e40ba63e2bbafe?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/6bf7f6a7232b1b97ee9a744a100aeca1e7c88c5f",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/71e881da19e631a9d090b986adceac3ea0b0e2e8",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/628ebd12e707b22c60facf97568318b422ecb7e7",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/1uaS3ZokV40ZrpzSRhx4Ol"
-                },
-                "href": "https://api.spotify.com/v1/artists/1uaS3ZokV40ZrpzSRhx4Ol",
-                "id": "1uaS3ZokV40ZrpzSRhx4Ol",
-                "name": "K. Forest",
-                "type": "artist",
-                "uri": "spotify:artist:1uaS3ZokV40ZrpzSRhx4Ol"
-              }
-            ],
-            "duration_ms": 203911,
-            "id": "1w4g0kJ2zKdAmm9m5eGq99",
-            "name": "Link",
-            "preview_url": "https://p.scdn.co/mp3-preview/bc3ad5cfd98c59a5d1c202a936ed326aee43454d?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/1cb21d99ce45f28b583b25c28c64b325cb0291fa",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/301841f932df45087f47f15ac524d38cf6d9cbeb",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/1899846469f611292712c15362186c03e5249ac7",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/28j8lBWDdDSHSSt5oPlsX2"
-                },
-                "href": "https://api.spotify.com/v1/artists/28j8lBWDdDSHSSt5oPlsX2",
-                "id": "28j8lBWDdDSHSSt5oPlsX2",
-                "name": "ZHU",
-                "type": "artist",
-                "uri": "spotify:artist:28j8lBWDdDSHSSt5oPlsX2"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/0PxzGnCYBpSuaI49OR94cA"
-                },
-                "href": "https://api.spotify.com/v1/artists/0PxzGnCYBpSuaI49OR94cA",
-                "id": "0PxzGnCYBpSuaI49OR94cA",
-                "name": "Big Wild",
-                "type": "artist",
-                "uri": "spotify:artist:0PxzGnCYBpSuaI49OR94cA"
-              }
-            ],
-            "duration_ms": 215866,
-            "id": "7qvrvipugDAlOIBsarj5H7",
-            "name": "Generationwhy - Big Wild Remix",
-            "preview_url": "https://p.scdn.co/mp3-preview/0e0ed3c25fbe9e90bd8fc286c7ae6a6ef2388029?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/635f7064e240fe221d509e9dc7b6dd6c993d7a34",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/48312b4b2a9694907f05507566f8105eb2d0b4e1",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/53a9340c09924e9c203ca1f3d2683fb069e9e730",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/3NjbpG6MmFGVLXwbcPXH90"
-                },
-                "href": "https://api.spotify.com/v1/artists/3NjbpG6MmFGVLXwbcPXH90",
-                "id": "3NjbpG6MmFGVLXwbcPXH90",
-                "name": "Haiyti",
-                "type": "artist",
-                "uri": "spotify:artist:3NjbpG6MmFGVLXwbcPXH90"
-              }
-            ],
-            "duration_ms": 217503,
-            "id": "6S7hjKgzVHRI2u10cp4YhE",
-            "name": "Crime Life",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/d5f4c81eb3b97f21754eae62f288ad993beb6cda",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/71a4468789e3052848c8c923ac26f7dc98a5ed59",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/ff1e1471170e598fb9bd458c7e75fb23e261b5cb",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/2Wz4D2s1P6opeddi4wTbhO"
-                },
-                "href": "https://api.spotify.com/v1/artists/2Wz4D2s1P6opeddi4wTbhO",
-                "id": "2Wz4D2s1P6opeddi4wTbhO",
-                "name": "JAS CRW",
-                "type": "artist",
-                "uri": "spotify:artist:2Wz4D2s1P6opeddi4wTbhO"
-              }
-            ],
-            "duration_ms": 306764,
-            "id": "2LEJQ2897sGSOI5lCJ9dTb",
-            "name": "Cornerstore \"deep\"",
-            "preview_url": "https://p.scdn.co/mp3-preview/f4db9a907c43b923310b3f2f94b04347a73cb33f?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/1788aea85bf703d003943321299570c5d007c2da",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/7b31b7dc163af7723410dd12198eece25a9509f8",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/d1f697c85520baf504c71f6f401238a5f8c23a2f",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/1aS5tqEs9ci5P9KD9tZWa6"
-                },
-                "href": "https://api.spotify.com/v1/artists/1aS5tqEs9ci5P9KD9tZWa6",
-                "id": "1aS5tqEs9ci5P9KD9tZWa6",
-                "name": "Bonez MC",
-                "type": "artist",
-                "uri": "spotify:artist:1aS5tqEs9ci5P9KD9tZWa6"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/0Dvx6p8JDyzeOPGmaCIH1L"
-                },
-                "href": "https://api.spotify.com/v1/artists/0Dvx6p8JDyzeOPGmaCIH1L",
-                "id": "0Dvx6p8JDyzeOPGmaCIH1L",
-                "name": "RAF Camora",
-                "type": "artist",
-                "uri": "spotify:artist:0Dvx6p8JDyzeOPGmaCIH1L"
-              }
-            ],
-            "duration_ms": 201987,
-            "id": "22RXnOk4E7QWTHJmEj4AkX",
-            "name": "Palmen aus Gold",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/73fb1de575a85db765a1c6c928f81a38d0db03aa",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/8d6afec409ba1efeeb2e468bfecf05898d2ef67b",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/fe8142a13c45ad4904dd169e1562c46604b4a582",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
-                },
-                "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
-                "id": "246dkjvS1zLTtiykXe5h60",
-                "name": "Post Malone",
-                "type": "artist",
-                "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
-              }
-            ],
-            "duration_ms": 194360,
-            "id": "67j0lpZbpu5HtxbSJTX3Rd",
-            "name": "Patient",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/6221b7eb682cae3b1dc97262c00cbfb277425688",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/bf5a20e4a4af62136d0ee57951fd7b68b8f199a5",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/1c8773ffca7d84dc2b78c4c7a439245217fbfa92",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/5nmE1jAAFtpuHLXxzEAnJj"
-                },
-                "href": "https://api.spotify.com/v1/artists/5nmE1jAAFtpuHLXxzEAnJj",
-                "id": "5nmE1jAAFtpuHLXxzEAnJj",
-                "name": "Hustensaft Jüngling",
-                "type": "artist",
-                "uri": "spotify:artist:5nmE1jAAFtpuHLXxzEAnJj"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/38KSpOSYnwQX9zcOcVKdym"
-                },
-                "href": "https://api.spotify.com/v1/artists/38KSpOSYnwQX9zcOcVKdym",
-                "id": "38KSpOSYnwQX9zcOcVKdym",
-                "name": "Frauenarzt",
-                "type": "artist",
-                "uri": "spotify:artist:38KSpOSYnwQX9zcOcVKdym"
-              }
-            ],
-            "duration_ms": 238731,
-            "id": "6xyccsTvhHK9Mvl3q9Owcx",
-            "name": "Bling Blang",
-            "preview_url": "https://p.scdn.co/mp3-preview/88d7a5b2ded17a39e4b68f560ba2ed517b6a8d87?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/84bb6c03b134e8b45ad87afb13790b3ee1ca4638",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/ed2fd7f3dd96740e1a7502a5f1510763c9525471",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/06e8db3759926cc9bd5bf6046ffe602c6369aa02",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/5dfFr2qhmXQLvHZqg0dynx"
-                },
-                "href": "https://api.spotify.com/v1/artists/5dfFr2qhmXQLvHZqg0dynx",
-                "id": "5dfFr2qhmXQLvHZqg0dynx",
-                "name": "Fat Nick",
-                "type": "artist",
-                "uri": "spotify:artist:5dfFr2qhmXQLvHZqg0dynx"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/4nXOZlYoAD67hF9aUEncMY"
-                },
-                "href": "https://api.spotify.com/v1/artists/4nXOZlYoAD67hF9aUEncMY",
-                "id": "4nXOZlYoAD67hF9aUEncMY",
-                "name": "Pouya",
-                "type": "artist",
-                "uri": "spotify:artist:4nXOZlYoAD67hF9aUEncMY"
-              }
-            ],
-            "duration_ms": 146207,
-            "id": "0gLaMIBabfO1RjpiKJLD6g",
-            "name": "Hunnit Hunnit",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/4055181b08a31dcca66b26bd938746d2e01128b4",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/ec9cf15abadd60f94041aec9f17b08e8c259b62f",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/873ad6116936207096f22b5600d9ffc91a242d84",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/4nAhut2dR1EdnpKHFq3EYD"
-                },
-                "href": "https://api.spotify.com/v1/artists/4nAhut2dR1EdnpKHFq3EYD",
-                "id": "4nAhut2dR1EdnpKHFq3EYD",
-                "name": "MC Bomber",
-                "type": "artist",
-                "uri": "spotify:artist:4nAhut2dR1EdnpKHFq3EYD"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/6rsq6fE9o4roVymIV9gi9J"
-                },
-                "href": "https://api.spotify.com/v1/artists/6rsq6fE9o4roVymIV9gi9J",
-                "id": "6rsq6fE9o4roVymIV9gi9J",
-                "name": "Tito Tentaculo",
-                "type": "artist",
-                "uri": "spotify:artist:6rsq6fE9o4roVymIV9gi9J"
-              }
-            ],
-            "duration_ms": 166200,
-            "id": "7saPih3N7TP9AOn51yshGP",
-            "name": "Sisyphos - Remix",
-            "preview_url": "https://p.scdn.co/mp3-preview/d3b771ec473e3667ca069b54b05018085b1cda05?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        }
-      ],
-      "total": 12
-    }
-  },
-  {
-    "description": "*for best experience* automatisch überblenden auf 4 Sekunden einstellen",
-    "id": "3pYzJmPboHyPPSXcztvDU4",
-    "images": [
-      {
-        "height": null,
-        "url": "https://pl.scdn.co/images/pl/default/6cbbb6b44f399c9d2a1222bc6c1a2fbda0b8ff01",
-        "width": null
-      }
-    ],
-    "name": "Squad Tape 16/48",
-    "tracks": {
-      "items": [
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/d2e1e2f3c6e781fac20998eb5f561269c4ba423a",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/3c8062d8dce1b8fd3576ae4dbae952b9844721eb",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/beff2ae20eff050f8e97c9ea88ebf6ce17643479",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/1nL98XHH55na3zeMnrYMXh"
-                },
-                "href": "https://api.spotify.com/v1/artists/1nL98XHH55na3zeMnrYMXh",
-                "id": "1nL98XHH55na3zeMnrYMXh",
-                "name": "Manu Crooks",
-                "type": "artist",
-                "uri": "spotify:artist:1nL98XHH55na3zeMnrYMXh"
-              }
-            ],
-            "duration_ms": 227684,
-            "id": "5hKLqzR7USnHZcXdtJ3HmN",
-            "name": "Everyday",
-            "preview_url": "https://p.scdn.co/mp3-preview/5f5357a3b64974de49acc5afe7cdb3a0301267a3?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/b3f8e43de44c36e418cb19bb51cc61e478769a16",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/c35e2dcdc5c3f83293e55f2c009fd3cd36987064",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/288c13a8c3ad4a94b17b7d983955cef5982a095a",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/2Q570lQPWiuP2dCOP69jO3"
-                },
-                "href": "https://api.spotify.com/v1/artists/2Q570lQPWiuP2dCOP69jO3",
-                "id": "2Q570lQPWiuP2dCOP69jO3",
-                "name": "Remoe",
-                "type": "artist",
-                "uri": "spotify:artist:2Q570lQPWiuP2dCOP69jO3"
-              }
-            ],
-            "duration_ms": 150475,
-            "id": "3RzxLf58lBaqVbjxkUPrMQ",
-            "name": "Fokus",
-            "preview_url": "https://p.scdn.co/mp3-preview/18512fce974cac9e8b415dc71a198bbeb9427ae4?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/474628dfd80cca84eb46dbe715159fb7d43d77f5",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/cd934518dabedbde73e956f7db34197deb0d61f7",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/92201b6e93a6f72f4d95ef63dd4e9ed7b23f105f",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/32Grk5UBNHI1CMrhLlKeO8"
-                },
-                "href": "https://api.spotify.com/v1/artists/32Grk5UBNHI1CMrhLlKeO8",
-                "id": "32Grk5UBNHI1CMrhLlKeO8",
-                "name": "Brian Marc",
-                "type": "artist",
-                "uri": "spotify:artist:32Grk5UBNHI1CMrhLlKeO8"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/0326Jqw0EtUEis0e0pvIA9"
-                },
-                "href": "https://api.spotify.com/v1/artists/0326Jqw0EtUEis0e0pvIA9",
-                "id": "0326Jqw0EtUEis0e0pvIA9",
-                "name": "Blu",
-                "type": "artist",
-                "uri": "spotify:artist:0326Jqw0EtUEis0e0pvIA9"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/08mxaoupOEaITXv1WTbSNl"
-                },
-                "href": "https://api.spotify.com/v1/artists/08mxaoupOEaITXv1WTbSNl",
-                "id": "08mxaoupOEaITXv1WTbSNl",
-                "name": "KeithCharles Spacebar",
-                "type": "artist",
-                "uri": "spotify:artist:08mxaoupOEaITXv1WTbSNl"
-              }
-            ],
-            "duration_ms": 317450,
-            "id": "5cFSlENRK6u78I2RUp1T5b",
-            "name": "Okie Dokie (feat. Blu & KeithCharles Spacebar)",
-            "preview_url": "https://p.scdn.co/mp3-preview/97b0a0cfb5e35ee1c5dc5741a06d027ca3ed02bd?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/510233c82c3721bb1b0f56a89c35e34b90832441",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/c2b193e1e6dcb14d18e45d95ccf27c00b6472081",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/85eca6a46ecc5944c64825a047a727a027e49442",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/7pFeBzX627ff0VnN6bxPR4"
-                },
-                "href": "https://api.spotify.com/v1/artists/7pFeBzX627ff0VnN6bxPR4",
-                "id": "7pFeBzX627ff0VnN6bxPR4",
-                "name": "Desiigner",
-                "type": "artist",
-                "uri": "spotify:artist:7pFeBzX627ff0VnN6bxPR4"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
-                },
-                "href": "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x",
-                "id": "5K4W6rqBFWDnAN6FQUkS6x",
-                "name": "Kanye West",
-                "type": "artist",
-                "uri": "spotify:artist:5K4W6rqBFWDnAN6FQUkS6x"
-              }
-            ],
-            "duration_ms": 141613,
-            "id": "51UC1yV79s4uxyIHs2ilYE",
-            "name": "Tiimmy Turner - Remix",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/e10b41fb7e9bb6e5a762fc906d5f01f6162f33a3",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/0fb7ebbc5d0d56bbf7c3ee761d3bc094c4c733ca",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/aba621d98e34a8e7d6f26fba4569e260be7eb64b",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/0yKn3Zf8lPC1qmk9MTClzA"
-                },
-                "href": "https://api.spotify.com/v1/artists/0yKn3Zf8lPC1qmk9MTClzA",
-                "id": "0yKn3Zf8lPC1qmk9MTClzA",
-                "name": "Holy Modee",
-                "type": "artist",
-                "uri": "spotify:artist:0yKn3Zf8lPC1qmk9MTClzA"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/73JMQvllbBsfDclpXOW4Wj"
-                },
-                "href": "https://api.spotify.com/v1/artists/73JMQvllbBsfDclpXOW4Wj",
-                "id": "73JMQvllbBsfDclpXOW4Wj",
-                "name": "morten",
-                "type": "artist",
-                "uri": "spotify:artist:73JMQvllbBsfDclpXOW4Wj"
-              }
-            ],
-            "duration_ms": 223500,
-            "id": "52OAigpNlvOECs6oeSb7Gr",
-            "name": "bbk vs immer",
-            "preview_url": "https://p.scdn.co/mp3-preview/4b103888f549f1e890ec4dafd95ab0e9be582f28?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/90ac4e7f8049fff419323fb356ed71f8c7c8bbe3",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/7dc61effe87de6176d1571b1d7ea0d6f89dda882",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/c14d2c55d757392ca0cb315b3207e61dedc38697",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/5gCRApTajqwbnHHPbr2Fpi"
-                },
-                "href": "https://api.spotify.com/v1/artists/5gCRApTajqwbnHHPbr2Fpi",
-                "id": "5gCRApTajqwbnHHPbr2Fpi",
-                "name": "Juicy J",
-                "type": "artist",
-                "uri": "spotify:artist:5gCRApTajqwbnHHPbr2Fpi"
-              }
-            ],
-            "duration_ms": 170215,
-            "id": "0hmGVo5TKzXcV342bUElLo",
-            "name": "Act",
-            "preview_url": "https://p.scdn.co/mp3-preview/a7f8fa89cf37553089532e4235072719c31619cc?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/5e372601edbe5cca13592063e6ccd46082b34f36",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/5f73a45b1f12560bce88945472ff965517627d10",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/aed710f99e9b690507b0a09da339aa457504d610",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/7p1KdHKrIDsXbiHnRNPOTG"
-                },
-                "href": "https://api.spotify.com/v1/artists/7p1KdHKrIDsXbiHnRNPOTG",
-                "id": "7p1KdHKrIDsXbiHnRNPOTG",
-                "name": "Innanet James",
-                "type": "artist",
-                "uri": "spotify:artist:7p1KdHKrIDsXbiHnRNPOTG"
-              }
-            ],
-            "duration_ms": 153182,
-            "id": "7rvWCMfwsnneUUyxmaQtYz",
-            "name": "Black",
-            "preview_url": "https://p.scdn.co/mp3-preview/669713c52f1ee4e75da4073f32db495dbb7c6f7e?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/5f6a5e0a629d7f7064df84a38d043bb9b8e6cb7a",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/690bb297492a71227e0071ff4d5ca11e2a5a3c05",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/6a9e4c62a56385aa22efdd5ef1bfa77fee47cdd9",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/1HQGhla3VNj1dBmKTtVT2t"
-                },
-                "href": "https://api.spotify.com/v1/artists/1HQGhla3VNj1dBmKTtVT2t",
-                "id": "1HQGhla3VNj1dBmKTtVT2t",
-                "name": "Ookay",
-                "type": "artist",
-                "uri": "spotify:artist:1HQGhla3VNj1dBmKTtVT2t"
-              }
-            ],
-            "duration_ms": 239711,
-            "id": "5Ce9z7GqSknXccyppRxNLY",
-            "name": "Thief",
-            "preview_url": "https://p.scdn.co/mp3-preview/4d48a88cc8b897b0b2aee0a97cb5839c1f964424?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/b1410e3c6bb82bc5764bc6b06bf60208cfbc16b0",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/28e36541ff20bf15a46ce946f72ca55c555e23a2",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/c45b282acbc77824a2f82714e180739513dabf67",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/5XenQ7XfcvQdfIbpLEFaKQ"
-                },
-                "href": "https://api.spotify.com/v1/artists/5XenQ7XfcvQdfIbpLEFaKQ",
-                "id": "5XenQ7XfcvQdfIbpLEFaKQ",
-                "name": "GoldLink",
-                "type": "artist",
-                "uri": "spotify:artist:5XenQ7XfcvQdfIbpLEFaKQ"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/3iIFBDnPEFpR6PCF0Tuh6w"
-                },
-                "href": "https://api.spotify.com/v1/artists/3iIFBDnPEFpR6PCF0Tuh6w",
-                "id": "3iIFBDnPEFpR6PCF0Tuh6w",
-                "name": "GEOTHEORY",
-                "type": "artist",
-                "uri": "spotify:artist:3iIFBDnPEFpR6PCF0Tuh6w"
-              }
-            ],
-            "duration_ms": 233314,
-            "id": "4sv8shEvVY9iDo3cmJRWwU",
-            "name": "Spectrum - GEOTHEORY Remix",
-            "preview_url": "https://p.scdn.co/mp3-preview/0c340d221bbe16f8a74bc224123a57d9d1ed3d24?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/8ce946a130073f9382beb7a7935ba98156058630",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/48a9c86b3a4c96b7fdeb4500fad6b2562fc6192f",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/cc1e6951a5517de0de6c93560433b66856187511",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/0koQe6pSkkxw5ZjaXubPJe"
-                },
-                "href": "https://api.spotify.com/v1/artists/0koQe6pSkkxw5ZjaXubPJe",
-                "id": "0koQe6pSkkxw5ZjaXubPJe",
-                "name": "Sayyi",
-                "type": "artist",
-                "uri": "spotify:artist:0koQe6pSkkxw5ZjaXubPJe"
-              }
-            ],
-            "duration_ms": 126014,
-            "id": "0FJROvr3JAcbh4PZnzbuC6",
-            "name": "Oh Yes",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/2b3ba88deb87ab4786b14f12b1734d52af7cb097",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/2310b96bed5a6e129ec0eb4ff2174a473abc1827",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/a15618964963d12e3f7fa6fb2dc3f2de6b84e6da",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/2cP7dnZQqfYPoMMdmYQyJl"
-                },
-                "href": "https://api.spotify.com/v1/artists/2cP7dnZQqfYPoMMdmYQyJl",
-                "id": "2cP7dnZQqfYPoMMdmYQyJl",
-                "name": "Nobodys Face",
-                "type": "artist",
-                "uri": "spotify:artist:2cP7dnZQqfYPoMMdmYQyJl"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/6jL3G5P8rxfUamkyqmRJNU"
-                },
-                "href": "https://api.spotify.com/v1/artists/6jL3G5P8rxfUamkyqmRJNU",
-                "id": "6jL3G5P8rxfUamkyqmRJNU",
-                "name": "Marsimoto",
-                "type": "artist",
-                "uri": "spotify:artist:6jL3G5P8rxfUamkyqmRJNU"
-              }
-            ],
-            "duration_ms": 186906,
-            "id": "4QQIHPuuU8BEXeM4izrf75",
-            "name": "Happy Day",
-            "preview_url": "https://p.scdn.co/mp3-preview/c544461036db4a7379ebc08f245bc24dcd571ba4?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/5249366f27d975fcd51b5a2d834c827dbbbb4c5c",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/5f236688284e1d2a130e6de8845422211ec65acb",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/64a8cc4180a8252f5f925e2c756979071011a667",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/1oX7kWDlraFgbDTrMuwbJb"
-                },
-                "href": "https://api.spotify.com/v1/artists/1oX7kWDlraFgbDTrMuwbJb",
-                "id": "1oX7kWDlraFgbDTrMuwbJb",
-                "name": "Wayvee",
-                "type": "artist",
-                "uri": "spotify:artist:1oX7kWDlraFgbDTrMuwbJb"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/73xAkxZ3NDbTBri0qmlgPd"
-                },
-                "href": "https://api.spotify.com/v1/artists/73xAkxZ3NDbTBri0qmlgPd",
-                "id": "73xAkxZ3NDbTBri0qmlgPd",
-                "name": "LMC",
-                "type": "artist",
-                "uri": "spotify:artist:73xAkxZ3NDbTBri0qmlgPd"
-              }
-            ],
-            "duration_ms": 185965,
-            "id": "2BVo7W60QcDAEv6BnlJEAh",
-            "name": "Empire (with LMC)",
-            "preview_url": "https://p.scdn.co/mp3-preview/d48e4e4062968ddc97b0edfb0392e562f0782aa7?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/bacbbb8d3b5af32d6929ee5bf0a6aa6968923c6f",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/0f3a9963dcd7cbe607e70a0f1a4ec8654e6f16e5",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/e26631abe80fd4a727a963dc402293f0c3206c37",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/61y0Qj5xUcKnbHYxuaqSRP"
-                },
-                "href": "https://api.spotify.com/v1/artists/61y0Qj5xUcKnbHYxuaqSRP",
-                "id": "61y0Qj5xUcKnbHYxuaqSRP",
-                "name": "Myth Syzer",
-                "type": "artist",
-                "uri": "spotify:artist:61y0Qj5xUcKnbHYxuaqSRP"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/1h0vYLWMAElSWYCjm6RBpe"
-                },
-                "href": "https://api.spotify.com/v1/artists/1h0vYLWMAElSWYCjm6RBpe",
-                "id": "1h0vYLWMAElSWYCjm6RBpe",
-                "name": "Ikaz Boi",
-                "type": "artist",
-                "uri": "spotify:artist:1h0vYLWMAElSWYCjm6RBpe"
-              }
-            ],
-            "duration_ms": 197235,
-            "id": "4oQAHIi8CruVDLu6PP0maG",
-            "name": "Timeless",
-            "preview_url": "https://p.scdn.co/mp3-preview/89fe3747e67871ba82d8a767a7f4ed84684d58d9?cid=0c45b5ac0e5747e5b9f404c7b6f014fb"
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/635f7064e240fe221d509e9dc7b6dd6c993d7a34",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/48312b4b2a9694907f05507566f8105eb2d0b4e1",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/53a9340c09924e9c203ca1f3d2683fb069e9e730",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/3NjbpG6MmFGVLXwbcPXH90"
-                },
-                "href": "https://api.spotify.com/v1/artists/3NjbpG6MmFGVLXwbcPXH90",
-                "id": "3NjbpG6MmFGVLXwbcPXH90",
-                "name": "Haiyti",
-                "type": "artist",
-                "uri": "spotify:artist:3NjbpG6MmFGVLXwbcPXH90"
-              },
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/6fpcc1YopVYoJIXKIfvY4w"
-                },
-                "href": "https://api.spotify.com/v1/artists/6fpcc1YopVYoJIXKIfvY4w",
-                "id": "6fpcc1YopVYoJIXKIfvY4w",
-                "name": "Joey Bargeld",
-                "type": "artist",
-                "uri": "spotify:artist:6fpcc1YopVYoJIXKIfvY4w"
-              }
-            ],
-            "duration_ms": 184961,
-            "id": "0xhFDIY2UZOwKdZO1qdRsT",
-            "name": "Mon Cheri",
-            "preview_url": null
-          }
-        },
-        {
-          "track": {
-            "album": {
-              "images": [
-                {
-                  "height": 640,
-                  "url": "https://i.scdn.co/image/41cd2336ddc010163dd9d7fce50fc35b4ca18546",
-                  "width": 640
-                },
-                {
-                  "height": 300,
-                  "url": "https://i.scdn.co/image/d701d29ad3dac37df89d3e6cc51648a8df8ba44c",
-                  "width": 300
-                },
-                {
-                  "height": 64,
-                  "url": "https://i.scdn.co/image/3d8960b48328d823de4462050e89904704576c76",
-                  "width": 64
-                }
-              ]
-            },
-            "artists": [
-              {
-                "external_urls": {
-                  "spotify": "https://open.spotify.com/artist/6QzzeKV0VcnT2vJMYDPuL4"
-                },
-                "href": "https://api.spotify.com/v1/artists/6QzzeKV0VcnT2vJMYDPuL4",
-                "id": "6QzzeKV0VcnT2vJMYDPuL4",
-                "name": "Trettmann",
-                "type": "artist",
-                "uri": "spotify:artist:6QzzeKV0VcnT2vJMYDPuL4"
-              }
-            ],
-            "duration_ms": 271723,
-            "id": "72UI0xxH2S2AkgbgHqfVEa",
-            "name": "La Dolce Vita",
-            "preview_url": null
-          }
-        }
-      ],
-      "total": 15
     }
   }
 ]
