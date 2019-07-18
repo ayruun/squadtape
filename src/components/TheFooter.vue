@@ -31,9 +31,9 @@ export default {
 .the-footer {
   background: url("https://www.aarigato.de/assets/images/background.png");
   background-position: center -270px;
-  width: 1230px;
+  grid-column: 1 / -1;
   height: 50px;
-  margin: 0 25px 10px 25px;
+  margin: 0;
   display: grid;
   grid-template-columns: 5vw repeat(2, 1fr) 5vw;
 }
@@ -63,17 +63,5 @@ export default {
 
 .link {
     margin: 0 5px;
-}
-
-@media (max-width: 850px) {
-  .the-footer {
-    width: 920px;
-  }
-}
-
-@media (max-width: 600px) {
-  .the-footer {
-    width: 610px;
-  }
 }
 </style>

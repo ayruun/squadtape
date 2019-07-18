@@ -1,13 +1,6 @@
 <template>
   <div class="playlist-view">
-    <TheInfoBox
-      v-if="playlist"
-      :id="playlistId"
-      :name="playlist.name"
-      :description="playlist.description"
-      :total="playlist.tracks.total"
-      :duration="totalLength"
-    />
+    
 
     <audio
       ref="audio"
@@ -16,6 +9,16 @@
     />
 
     <Grid v-if="playlist">
+
+      <TheInfoBox
+        v-if="playlist"
+        :id="playlistId"
+        :name="playlist.name"
+        :description="playlist.description"
+        :total="playlist.tracks.total"
+        :duration="totalLength"
+      />
+
       <GridTile
         v-for="{ track } in playlist.tracks.items"
         :key="track.id"
@@ -50,9 +53,12 @@
           </button>
         </div>
       </GridTile>
+
+      <TheFooter />
+
     </Grid>
 
-    <TheFooter />
+  
   </div>
 </template>
 

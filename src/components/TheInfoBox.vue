@@ -14,7 +14,6 @@
     </div>
     <p>{{ description }}</p>
     <p>Tracks: {{ total }} Duration: {{ duration }}</p>
-    <!-- @TODO: add image playlist cover at the left -->
   </div>
 </template>
 
@@ -64,24 +63,12 @@ export default {
 .info {
   background: url("https://www.aarigato.de/assets/images/background.png");
   background-position: center -200px;
-  width: 1230px;
+  grid-column: 1 / -1;
   height: 150px;
-  margin: 10px 25px 0 25px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media (max-width: 850px) {
-  .info {
-    width: 920px;
-  }
-}
-
-@media (max-width: 600px) {
-  .info {
-    width: 610px;
-  }
 }
 </style>
