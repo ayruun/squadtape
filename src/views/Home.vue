@@ -1,19 +1,23 @@
 <template>
   <div class="home">
-    <div class="info">
-      <div
-        class="spotify-btn"
-        @mouseenter="iconColor = 'var(--secondary)'"
-        @mouseleave="iconColor = 'var(--primary)'"
-      >
-        <h1>SQUAD TAPE</h1>
-        <IconSpotify :color="iconColor" href="spotify:user:ayruun" />
-      </div>
-      <p>Welcome to the best place to find new music.</p>
-      <p>Just select a playlist and enjoy.</p>
-    </div>
-
     <Grid>
+      
+      <div class="info">
+        <div
+          class="spotify-btn"
+          @mouseenter="iconColor = 'var(--secondary)'"
+          @mouseleave="iconColor = 'var(--primary)'"
+        >
+          <h1>SQUAD TAPE</h1>
+          <IconSpotify
+            :color="iconColor"
+            href="spotify:user:ayruun"
+          />
+        </div>
+        <p>Welcome to the best place to find new music.</p>
+        <p>Just select a playlist and enjoy.</p>
+      </div>
+
       <GridTile
         v-for="playlist in playlists"
         :key="playlist.id"
@@ -24,13 +28,14 @@
           @click="$router.push('/' + playlist.id)"
         />
         <div
-          class="track-info" 
+          class="track-info"
           @click="$router.push('/' + playlist.id)"
         >{{ playlist.name }}</div>
       </GridTile>
-    </Grid>
 
-    <TheFooter />
+      <TheFooter />
+
+    </Grid>
   </div>
 </template>
 
@@ -62,6 +67,7 @@ export default {
 /* .info class is styled in TheInfoBox */
 
 .home {
+  width: auto;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -72,7 +78,7 @@ export default {
 .spotify-btn {
   display: inline-flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .spotify-btn h1 {

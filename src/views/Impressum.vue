@@ -89,19 +89,17 @@ export default {
 
 <style>
 .impressum {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 300px));
+  grid-auto-flow: row;
   justify-content: center;
-  align-items: center;
-  justify-self: center;
-  align-self: center;
+  margin: 10px 25px;
 }
 
 .impr-header {
   background: url('https://www.aarigato.de/assets/images/background.png');
   background-position: center -270px;
-  width: 1230px;
-  margin: 10px 25px 0 25px;
+  grid-column: 1 / -1;
 }
 
 .impr-header h1 {
@@ -109,9 +107,9 @@ export default {
 }
 
 .impr-content {
-  width: 1230px;
+  grid-column: 1 / -1;
   background-color: var(--beige);
-  margin: 10px 25px;
+  margin: 10px 0;
   text-align: left;
 }
 
@@ -139,17 +137,15 @@ export default {
     margin-bottom: 25px;
 }
 
-@media (max-width: 850px) {
-  .impr-header,
-  .impr-content {
-    width: 920px;
+@media (min-width: 800px) {
+  .impressum {
+    grid-template-columns: repeat(3, minmax(100px, 300px));
   }
 }
 
-@media (max-width: 600px) {
-  .impr-header,
-  .impr-content {
-    width: 610px;
+@media (min-width: 1100px) {
+  .impressum {
+    grid-template-columns: repeat(4, minmax(100px, 300px));
   }
 }
 </style>

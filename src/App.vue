@@ -33,8 +33,10 @@ export default {
   letter-spacing: 1px;
   text-align: center;
   color: var(--primary);
-  display: grid;
-  grid-template-rows: auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s;
@@ -50,4 +52,6 @@ h1 {
 p {
     margin: 10px 0 0 0;
 }
+
+
 </style>
