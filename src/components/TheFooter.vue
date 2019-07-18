@@ -1,22 +1,28 @@
 <template>
   <div class="the-footer">
+
     <div class="copyright"> 
       <router-link to="/">
         &copy; SquadTape
       </router-link>
     </div>
+
     <div class="links">
+      
       <div class="link">
         <router-link to="/impressum">
           Impressum
         </router-link>
       </div>
+
       <div class="link">
         <a href="https://github.com/ayruun/squadtape" target="_blank">GitHub</a>
       </div>
+
       <div class="link">
         <a href="https://www.aarigato.com" target="_blank">Aarigato</a>
       </div>
+
     </div>
   </div>
 </template>
@@ -63,5 +69,22 @@ export default {
 
 .link {
     margin: 0 5px;
+}
+
+@media (max-width: 450px) {
+    .the-footer {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 374px) {
+  .copyright {
+    display: none;
+  }
+
+  .links {
+    grid-column: 2 / 4;
+    justify-content: center;
+  }
 }
 </style>
