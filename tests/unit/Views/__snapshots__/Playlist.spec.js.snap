@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Playlist.vue snapshots renders 1`] = `
+<div class="playlist-view"><audio></audio>
+  <grid-stub>
+    <theinfobox-stub name="Squad Tape 19/01" description="*for best experience* automatisch überblenden auf 4 Sekunden einstellen" total="12" duration="37:53 min" id="6id5t7Oao2KXLXYf1TG4MZ"></theinfobox-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/c89f852ea7ac41d296aa80c706c3cbb692a5af23">
+      <div class="track-info">
+        <p>Greeny</p>
+        <p>Spüre nix</p>
+        <p>03:42 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/d8b52d52b2d0eb9070a1bff206bda1bd5834192e">
+      <div class="track-info">
+        <p>Post Malone</p>
+        <p>Wow.</p>
+        <p>02:29 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/77eb7c17cafe55027271d1a9e80c178cb719de25">
+      <div class="track-info">
+        <p>Big K.R.I.T.</p>
+        <p>Energy</p>
+        <p>03:15 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/d6d87f7d4b55c6f11cb5d618c44df2e9b0c0469c">
+      <div class="track-info">
+        <p>Edo Saiya</p>
+        <p>Beans</p>
+        <p>02:11 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/f7a7f1884708de97c458c911e4f53d639e4e5a14">
+      <div class="track-info">
+        <p>Wale</p>
+        <p>Ungrateful &amp; Thankful</p>
+        <p>04:05 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/959a1c1fcc69c303d7258b5ff0669ba551f20d77">
+      <div class="track-info">
+        <p>Kirk Knight</p>
+        <p>Not For Nothing</p>
+        <p>03:12 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/ba22f6de1682d28641213138ef71d551ea1860bc">
+      <div class="track-info">
+        <p>Bad Bunny</p>
+        <p>200 Mph</p>
+        <p>02:50 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/9f93860500bc472539702ff0353eb2737f63f50c">
+      <div class="track-info">
+        <p>Lil Xan</p>
+        <p>Watch Me Fall</p>
+        <p>02:47 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/821277105d0c6e509b547f35ee34c55a566308fa">
+      <div class="track-info">
+        <p>Yungmon</p>
+        <p>Danger</p>
+        <p>05:06 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/e9157829fe858032a2f7119cf5a263728cc96358">
+      <div class="track-info">
+        <p>SAM</p>
+        <p>Da wo du herkommst</p>
+        <p>02:49 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/fdfcd403f07239026f6cb1fc17e508467a8330ac">
+      <div class="track-info">
+        <p>HDBeenDope</p>
+        <p>Way Out</p>
+        <p>02:27 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <gridtile-stub clickable="true"><img src="https://i.scdn.co/image/8285b6e1d0fa9dc8cb769f50be3e47d898b6f4b4">
+      <div class="track-info">
+        <p>Ramzoid</p>
+        <p>OUTSIDE</p>
+        <p>02:55 min</p> <button class="controls">
+          <iconplay-stub color="var(--primary)"></iconplay-stub>
+        </button>
+      </div>
+    </gridtile-stub>
+    <thefooter-stub></thefooter-stub>
+  </grid-stub>
+</div>
+`;

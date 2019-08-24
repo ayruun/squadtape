@@ -26,5 +26,8 @@ module.exports = {
   watchPlugins: [
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname'
+  ],
+  setupFiles: [
+    "./tests/unit/jestGlobals.js"
   ]
 }

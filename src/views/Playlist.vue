@@ -1,15 +1,8 @@
 <template>
   <div class="playlist-view">
-    
-
-    <audio
-      ref="audio"
-      :src="activeTrack"
-      @ended="activeTrack = null"
-    />
+    <audio ref="audio" :src="activeTrack" @ended="activeTrack = null" />
 
     <Grid v-if="playlist">
-
       <TheInfoBox
         v-if="playlist"
         :id="playlistId"
@@ -42,23 +35,14 @@
             @mouseenter="color = 'var(--secondary)'"
             @mouseleave="color = 'var(--primary)'"
           >
-            <IconPlay
-              v-if="activeTrack !== track.preview_url"
-              :color="color"
-            />
-            <IconPause
-              v-else
-              :color="color"
-            />
+            <IconPlay v-if="activeTrack !== track.preview_url" :color="color" />
+            <IconPause v-else :color="color" />
           </button>
         </div>
       </GridTile>
 
       <TheFooter />
-
     </Grid>
-
-  
   </div>
 </template>
 
@@ -72,102 +56,98 @@ import IconPlay from "../components/icons/IconPlay";
 import IconPause from "../components/icons/IconPause";
 
 export default {
-  name: "App",
-  components: {
-    TheInfoBox,
-    Grid,
-    GridTile,
-    TheFooter,
-    IconPlay,
-    IconPause
-  },
-  props: {
-    playlistId: {
-      type: String,
-      required: true
-    }
-  },
-  data() {
-    return {
-      playlist: null,
-      activeTrack: null,
-      color: "var(--primary)"
-    };
-  },
-  computed: {
-    totalLength() {
-      if (!this.playlist) return null;
+	name: "App",
+	components: {
+		TheInfoBox,
+		Grid,
+		GridTile,
+		TheFooter,
+		IconPlay,
+		IconPause
+	},
+	props: {
+		playlistId: {
+			type: String,
+			required: true
+		}
+	},
+	data() {
+		return {
+			playlist: null,
+			activeTrack: null,
+			color: "var(--primary)"
+		};
+	},
+	computed: {
+		totalLength() {
+			if (!this.playlist) return null;
 
-      let durationMs = this.playlist.tracks.items.reduce(
-        (total, el) => total + el.track.duration_ms,
-        0
-      );
+			let durationMs = this.playlist.tracks.items.reduce(
+				(total, el) => total + el.track.duration_ms,
+				0
+			);
 
-      return this.msToTime(durationMs);
-    }
-  },
-  created() {
-    this.playlist = playlists.find(playlist => playlist.id === this.playlistId);
-  },
-  methods: {
-    msToTime(duration) {
-      var seconds = parseInt((duration / 1000) % 60),
-        minutes = parseInt(duration / (1000 * 60));
+			return this.msToTime(durationMs);
+		}
+	},
+	created() {
+		this.playlist = playlists.find(playlist => playlist.id === this.playlistId);
+	},
+	methods: {
+		msToTime(duration) {
+			var seconds = parseInt((duration / 1000) % 60),
+				minutes = parseInt(duration / (1000 * 60));
 
-      minutes = minutes < 10 ? "0" + minutes : minutes;
-      seconds = seconds < 10 ? "0" + seconds : seconds;
+			minutes = minutes < 10 ? "0" + minutes : minutes;
+			seconds = seconds < 10 ? "0" + seconds : seconds;
 
-      return `${minutes}:${seconds} min`;
-    },
-    togglePlay(previewUrl) {
-      if (this.activeTrack == previewUrl) {
-        if (this.$refs.audio.paused) {
-          this.$refs.audio.play();
-        } else {
-          this.$refs.audio.pause();
-          this.activeTrack = null;
-        }
-      } else {
-        this.activeTrack = previewUrl;
-        this.$nextTick(() => {
-          this.$refs.audio.play();
-        });
-      }
-    }
-  }
+			return `${minutes}:${seconds} min`;
+		},
+		togglePlay(previewUrl) {
+			if (this.activeTrack == previewUrl) {
+				this.$refs.audio.pause();
+				this.activeTrack = null;
+			} else {
+				this.activeTrack = previewUrl;
+				this.$nextTick(() => {
+					this.$refs.audio.play();
+				});
+			}
+		}
+	}
 };
 </script>
 
 <style>
 .playlist-view {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .controls {
-  margin-top: 5px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: none;
-  line-height: 50px;
-  background-color: var(--transparent);
-  cursor: pointer;
+	margin-top: 5px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border: none;
+	line-height: 50px;
+	background-color: var(--transparent);
+	cursor: pointer;
 }
 
 .controls:focus {
-  outline: 0;
+	outline: 0;
 }
 
 .track-info {
-  position: absolute;
-  width: 90%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--primary);
-  opacity: 0;
+	position: absolute;
+	width: 90%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: var(--primary);
+	opacity: 0;
 }
 </style>
