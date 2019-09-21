@@ -1,7 +1,5 @@
 <template>
   <div class="playlist-view">
-    
-
     <audio
       ref="audio"
       :src="activeTrack"
@@ -9,7 +7,6 @@
     />
 
     <Grid v-if="playlist">
-
       <TheInfoBox
         v-if="playlist"
         :id="playlistId"
@@ -55,10 +52,7 @@
       </GridTile>
 
       <TheFooter />
-
     </Grid>
-
-  
   </div>
 </template>
 
@@ -67,7 +61,6 @@ import TheInfoBox from "../components/TheInfoBox";
 import Grid from "../components/Grid";
 import GridTile from "../components/GridTile.vue";
 import TheFooter from "../components/TheFooter.vue";
-import playlists from "../data/playlistData.json";
 import IconPlay from "../components/icons/IconPlay";
 import IconPause from "../components/icons/IconPause";
 
@@ -89,12 +82,14 @@ export default {
   },
   data() {
     return {
-      playlist: null,
       activeTrack: null,
       color: "var(--primary)"
     };
   },
   computed: {
+    playlist() {
+      return this.$store.getters.getPlaylistById(this.playlistId);
+    },
     totalLength() {
       if (!this.playlist) return null;
 
@@ -105,9 +100,6 @@ export default {
 
       return this.msToTime(durationMs);
     }
-  },
-  created() {
-    this.playlist = playlists.find(playlist => playlist.id === this.playlistId);
   },
   methods: {
     msToTime(duration) {

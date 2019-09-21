@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <Grid>
-      
       <div class="info">
         <div
           class="spotify-btn"
@@ -34,7 +33,6 @@
       </GridTile>
 
       <TheFooter />
-
     </Grid>
   </div>
 </template>
@@ -44,7 +42,7 @@ import Grid from "../components/Grid";
 import GridTile from "../components/GridTile.vue";
 import TheFooter from "../components/TheFooter.vue";
 import IconSpotify from "../components/icons/IconSpotify.vue";
-import playlists from "../data/playlistData.json";
+import { mapState } from "vuex";
 
 export default {
   name: "Home",
@@ -56,9 +54,11 @@ export default {
   },
   data() {
     return {
-      playlists,
       iconColor: "var(--primary)"
     };
+  },
+  computed: {
+    ...mapState(["playlists"])
   }
 };
 </script>
